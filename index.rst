@@ -17,3 +17,4 @@ Welcome to PhoneLab's documentation!
    data
    archive
    policy
+   tagdoc
