@@ -15,3 +15,5 @@ Welcome to PhoneLab's documentation!
    exp
    logging
    data
+   archive
+   policy
