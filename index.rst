@@ -14,13 +14,4 @@ Welcome to PhoneLab's documentation!
    branch
    exp
    logging
-
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
-
+   data
