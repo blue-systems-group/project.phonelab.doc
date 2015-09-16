@@ -6,19 +6,23 @@ are hosting our own platform mirror. Here we are not trying to cover every
 aspect of the building process, which is already `well documented by AOSP
 <https://source.android.com/source/initializing.html>`_.
 
+
 Registration
 ------------
 
 First, you will need to register an account on our Gerrit server at
 http://platform.phone-lab.org:8080. You will need to use the OpenID
-authentication provided by Yahoo!, since `Google has terminated its OpenID
-support <https://code.google.com/p/gerrit/issues/detail?id=2677>`_.
+authentication provided by `Yahoo! <https://www.yahoo.com/>`_, since `Google has
+terminated its OpenID support
+<https://code.google.com/p/gerrit/issues/detail?id=2677>`_.
 
 Then please sign in and fill up your account information, most notably your SSH
 public key and email address. These two information are required later on to
 clone the platform source.
 
-Finally, please open the email sent by Gerrit to confirm your email address.
+Finally, please open the email sent by Gerrit to confirm your email address, and
+let us know your Gerrit account name.
+
 
 Downloading and Building
 ------------------------

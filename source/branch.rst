@@ -23,8 +23,8 @@ PhoneLab Develop Branch
 -----------------------
 
 When there is a major release of Android, we usually wait some time for it to be
-mature enough. Then we choose a fairly stable release for our device (Nexus 5)
-and create our develop branch from there. The branch name is
+become mature enough. Then we choose a fairly stable release for our device
+(Nexus 5) and create our develop branch from there. The branch name is
 ``phonelab/android-$tag/develop``, where ``$tag`` is the AOSP release tag.  For
 instance, we used the release ``4.4.4_r1`` for KitKat, and used ``5.1.1_r3`` for
 Lollipop. To give you some context, a full list of source code tags and builds

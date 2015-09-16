@@ -18,8 +18,8 @@ this documentation, but the high level steps are:
     we welcome ideas that requires changes at platform level, which is the
     unique capability of PhoneLab. 
 
- 3. We will create a experiment branch for your on our Gerrit server so that you
-    can download PhoneLab AOSP source and make changes.
+ 3. Upon approval, we will create a experiment branch for your on our Gerrit
+    server so that you can download PhoneLab AOSP source and make changes.
 
  4. When your changes are ready, we will merge them into our mainstream release
     branch and push out to participants.
