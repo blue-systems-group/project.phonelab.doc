@@ -47,8 +47,16 @@ Next, you are ready to clone the source code.
 Where ``<USERNAME>`` is your user name on our Gerrit server, and
 ``<EXPERIMENT_BRANCH>`` is the branch name we created for you.
 
-After the ``repo sync`` completes, you can go a head and build the platform.
-Note the build target is for Nexus 5, aka "hammerhead".
+Since ``repo sync`` will put every repository in a "detached head" mode, you may
+want to check out your experiment branch so further changes will be staged on
+your branch:
+
+.. code-block:: bash
+
+    $ repo forall git checkout <EXPERIMENT_BRANCH>
+
+Now you can go a head and build the platform.  Note the build target is for
+Nexus 5, aka "hammerhead".
 
 .. code-block:: bash
     
