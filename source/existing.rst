@@ -8,5 +8,4 @@ interested in, you can proceed directly to requesting data.
 
 Here is a list of existing instrumentations on our platform.
 
-
 .. include:: tagdoc.rst
