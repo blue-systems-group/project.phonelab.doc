@@ -1,5 +1,5 @@
-Development Environment Setup
-=============================
+Get Started
+===========
 
 PhoneLab use the same tools to manage platform source with AOSP, except that we
 are hosting our own platform mirror. Here we are not trying to cover every
