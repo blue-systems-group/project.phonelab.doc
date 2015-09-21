@@ -73,3 +73,9 @@ beforehand, so that the merging on our part is just a fast-forward.
     If your experiment branch can not be merged into our release branch, it will
     be excluded from the release.
 
+
+We developed a tool that will check whether or not your experiment changes meets
+the above requirement. **Please make sure your pass the check before notifying us
+your changes are ready.**
+
+https://github.com/blue-systems-group/project.phonelab.platform_checker
