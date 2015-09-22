@@ -9,21 +9,43 @@ smartphones is risky, so our goal is to make this possible but not necessarily
 easy. Keeping the following guidelines in mind as you make your experimental
 changes will help:
 
- * **Don't break stuff.** The fastest way to lose our confidence is to provide
-   us with changes that don't build or cause parts of the our PhoneLab image to
-   fail.  There's a road back from this point, but it's uphill. Test your
-   changes thoroughly before submitting them to us.
+* **Don't break stuff.** The fastest way to lose our confidence is to provide us
+  with changes that don't build or cause parts of the our PhoneLab image to
+  fail.  There's a road back from this point, but it's uphill. Test your changes
+  thoroughly before submitting them to us.
 
- * **Make useful and novel changes.** Given the dangers associated with this
-   kind of experimentation we are expecting researchers to approach us with
-   exciting and novel ideas that could potentially benefit PhoneLab
-   participants. (In that case, your changes will live on forever as part of the
-   base system!)
+* **Make useful and novel changes.** Given the dangers associated with this kind
+  of experimentation we are expecting researchers to approach us with exciting
+  and novel ideas that could potentially benefit PhoneLab participants. (In that
+  case, your changes will live on forever as part of the base system!)
 
- * **Be patient.** This isn't a fast process and it's not designed to be. If you
-   have a paper deadline in a week---or even a month---forget it. Your
-   scheduling constraints are your problem—keeping our participants safe is
-   ours.
+* **Be patient.** This isn't a fast process and it's not designed to be. If you
+  have a paper deadline in a week---or even a month---forget it. Your scheduling
+  constraints are your problem—keeping our participants safe is ours.
+
+
+Experiment Information
+----------------------
+
+When your experiment changes have been successfully merged and build, we need
+these extra information from you about the experiment:
+
+#. Experiment name
+#. Short description (a few sentences)
+#. Consent URL: a small web page explains what kind of data that your experiment
+   will collect.
+
+These information will be presented to PhoneLab participants as follows:
+
+.. image:: _static/exp.png
+    :scale: 30%
+.. image:: _static/consent.png
+    :scale: 30%
+
+Participants will have the option to "opt-out" your experiment data collection,
+which means the data from their devices will not show up in the final dataset we
+release.
+
 
 
 Release Schedule
@@ -43,3 +65,5 @@ useful data. If your changes are unintrusive and useful, they may stick around,
 but we provide no guarantees of this. We do guaranteed that if we receive
 complaints from participants or notice stability issues your changes will be
 reverted immediately.
+
+
