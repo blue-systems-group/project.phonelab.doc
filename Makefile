@@ -190,3 +190,9 @@ pseudoxml:
 	$(SPHINXBUILD) -b pseudoxml $(ALLSPHINXOPTS) $(BUILDDIR)/pseudoxml
 	@echo
 	@echo "Build finished. The pseudo-XML files are in $(BUILDDIR)/pseudoxml."
+
+preview:
+	xdg-open $(BUILDDIR)/html/index.html 2>&1 >/dev/null &
+
+deploy:
+	rsync -avz --delete --progress --omit-dir-times --no-o --no-g $(BUILDDIR)/html/ frontend:/srv/www/doc/
