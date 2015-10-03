@@ -16,5 +16,6 @@ PhoneLab's Documentation For Experimenters
    logging
    existing
    data
+   survey
    archive
    policy
