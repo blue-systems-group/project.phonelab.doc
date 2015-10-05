@@ -69,6 +69,29 @@ merging finishes smoothly without conflicts.** You can ensure this by trying to
 merge our develop branch into your experiment to resolve any conflicts
 beforehand, so that the merging on our part is just a fast-forward.
 
+Here are steps to make sure your changes can be successfully merged.
+
+First, fetch the latest PhoneLab develop branch.
+
+.. code-block:: bash
+
+    $ repo forall -j 8 -pvec git fetch aosp phonelab/android-5.1.1_r3/develop:phonelab/android-5.1.1_r3/develop
+
+Second, make sure your are in your experiment branch.
+
+.. code-block:: bash
+
+    $ repo forall -j 8 -pvec git checkout experiment/android-5.1.1_r3/<id>/<name>
+
+Finally, merge PhoneLab develop branch into your experiment branch.
+
+.. code-block:: bash
+
+    $ repo forall -j 8 -pvec git merge phonelab/android-5.1.1_r3/develop
+
+You may need repeat the last step a couple of times to fix possible conflicts.
+
+
 .. warning::
     If your experiment branch can not be merged into our release branch, it will
     be excluded from the release.
