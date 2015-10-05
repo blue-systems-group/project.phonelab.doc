@@ -14,9 +14,11 @@ First, clone this repository:
 Goto the repository directory, and set up a virtual environment:
 
     $ virtualenv .virtualenv/doc
+
     $ pip install -r requirements.txt
 
 Then build the document:
+
     $ make html
 
 
