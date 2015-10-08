@@ -75,6 +75,7 @@ rules and guidelines that we ask experimenters to follow:
    post-processing language. Writing tools based on regular-expressions is
    tedious and terrible.
 
+.. _conventions:
 
 Log Format Conventions
 ----------------------
@@ -164,8 +165,8 @@ Note that:
    some event happened.
 
 
-Document You Logs
------------------
+Document Your Logs
+------------------
 
 To help us keep an record of what have been logged, we require you comment you
 logs in a specific way so that we can automate the process of traversing the
@@ -225,6 +226,45 @@ The header file you need to include for Android logcat support is located in
 You can also use the more friendly ``__android_log_buf_print`` to get ``printf``
 style string formatting.
 
+
+Logging in the Kernel
+---------------------
+
+On PhoneLab builds, there is a daemon (``kmsgd``) that collects everything logged
+from the kernel using ``printk``, under the tag ``KernelPrintk``.  To distinguish 
+your logs from other kernel logs, we have provided functionality that can be accessed 
+by adding ``#include <linux/phonelab.h>`` to the kernel files you're modifying. 
+Using these functions, ``kmsgd`` will ensure your kernel logs are assigned the 
+appropriate tags.
+
+The kernel logging functions are equivalent to using Android's ``Log.*`` functions
+and the logs will appear in both ``/proc/kmsg`` and ``Logcat``. The following table shows the 
+available logging functions and their Android counterparts.
+
++---------------------------------------------+---------------------------+
+| Kernel Logging Function                     | Android Logging Function  |
++=============================================+===========================+
+| ``alog_v(char *tag, const char *fmt, ...)`` | ``Log.v(...)``            |
++---------------------------------------------+---------------------------+
+| ``alog_d(char *tag, const char *fmt, ...)`` | ``Log.d(...)``            |
++---------------------------------------------+---------------------------+
+| ``alog_i(char *tag, const char *fmt, ...)`` | ``Log.i(...)``            |
++---------------------------------------------+---------------------------+
+| ``alog_w(char *tag, const char *fmt, ...)`` | ``Log.w(...)``            |
++---------------------------------------------+---------------------------+
+| ``alog_e(char *tag, const char *fmt, ...)`` | ``Log.e(...)``            |
++---------------------------------------------+---------------------------+
+
+Function Argument Notes:
+ * ``tag`` should use the same :ref:`conventions`
+ * The functions are ``printk`` style and can include a variable number of arguments
+ 
+   * ``fmt`` is the format string, which should also be a JSON string
+   * The current length limit of the output JSON string, after format substitution, is 4096 characters
+   * You do not need to add a ``'\n'`` to ``fmt``
+
+The kernel time will be appended to the JSON string with the key ``KTime``.  You may want to include 
+``SystemClock.uptimeMillis()`` in your Android logs in order to more tightly integrate the logs.
 
 Uploading Raw Files
 -------------------
