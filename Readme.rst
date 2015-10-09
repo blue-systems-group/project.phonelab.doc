@@ -1,6 +1,8 @@
 PhoneLab Documentation for Experimenters
 ========================================
 
+[![Build Status](https://travis-ci.org/blue-systems-group/project.phonelab.doc.svg?branch=master)](https://travis-ci.org/blue-systems-group/project.phonelab.doc)
+
 https://phone-lab.org/doc/
 
 
