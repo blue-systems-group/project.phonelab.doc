@@ -1,0 +1,10 @@
+sudo: true
+
+install:
+    - sudo pip install virtualenv
+    - virtualenv .virtualenv/doc
+    - source .virtualenv/doc/bin/activate
+    - pip install requirements.txt
+
+build:
+    - make html
