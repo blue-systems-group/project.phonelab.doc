@@ -4,7 +4,7 @@ install:
     - sudo pip install virtualenv
     - virtualenv .virtualenv/doc
     - source .virtualenv/doc/bin/activate
-    - pip install requirements.txt
+    - pip install -r requirements.txt
 
 build:
     - make html
