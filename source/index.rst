@@ -19,3 +19,4 @@ PhoneLab's Documentation For Experimenters
    survey
    archive
    policy
+   faq
