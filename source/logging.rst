@@ -181,7 +181,7 @@ for the Wifi scan results tag described above:
      * {
      * "Category": "Network",
      * "SubCategory": "Wifi",
-     * "Tag": "PhoneLab-Network-Wifi",
+     * "Tag": "Network-Wifi-PhoneLab",
      * "Action": "android.net.wifi.SCAN_RESULTS",
      * "Description": "Wifi scan results."
      * }
