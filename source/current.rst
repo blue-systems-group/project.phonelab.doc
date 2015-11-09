@@ -72,6 +72,21 @@ outage.
  | University of Michigan, Ann Arbor
 
 
+6. Runtime Permission
+~~~~~~~~~~~~~~~~~~~~~
+
+This is a study on privacy preferences of mobile users when it comes to
+sensitive data requests originating from third party applications.  To that end,
+we want to track sensitive data requests and ask users whether they want to
+block such requests as it happens. However we hope to prompt the question at
+most once per day per user when such a request occurs. We are also hoping to log
+surrounding contextual data when such a question is prompted to the user. 
+
+**Contact**:
+ | Primal Wijesekera (primal@berkeley.edu)
+ | UC Berkeley
+
+
 
 
 Internal at SUNY Buffalo
