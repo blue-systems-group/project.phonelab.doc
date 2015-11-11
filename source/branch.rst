@@ -55,7 +55,6 @@ By default, your experiment branch is not publicly available: only PhoneLab
 administrators and yourself have full access to the branch.
 
 
-
 Deployment
 ----------
 
@@ -90,6 +89,11 @@ Finally, merge PhoneLab develop branch into your experiment branch.
     $ repo forall -j 8 -pvec git merge phonelab/android-5.1.1_r3/develop
 
 You may need repeat the last step a couple of times to fix possible conflicts.
+
+.. warning::
+    NEVER NEVER merge any other branches (e.g., release branches, other
+    experiment branches, logging branches) into your branch. Your experiment
+    branch should only contains your changes!
 
 
 .. warning::
