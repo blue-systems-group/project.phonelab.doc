@@ -31,11 +31,14 @@ Please follow the `AOSP instructions
 <https://source.android.com/source/initializing.html>`_ to set up your local
 develop environment.
 
-.. note:: 
+Before you continue, make sure that you have contacted us with these information:
 
-    Before you continue, make sure that you have contacted us so that we can create
-    an experiment branch for you on our server. Also, let us know your Gerrit
-    account so that we can set up access permissions.
+ - Who you are
+ - What the experiment is about (be brief)
+ - What will be a good code name (it will be used in creating the
+   experiment branch ``experiment/android-5.1.1_r3/${id}/${codename}``, where
+   ``${id}`` is assigned by us.)
+ - Your account name and email on our Gerrit server.
 
 Next, you are ready to clone the source code.
 
