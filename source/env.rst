@@ -56,7 +56,7 @@ your branch:
 
 .. code-block:: bash
 
-    $ repo forall git checkout <EXPERIMENT_BRANCH>
+    $ repo forall -pvec git checkout <EXPERIMENT_BRANCH>
 
 Now you can go a head and build the platform.  Note the build target is for
 Nexus 5, aka "hammerhead".
