@@ -33,8 +33,8 @@ Bluetooth radio turned on for sometime during the day.
  | University of Michigan, Ann Arbor
 
 
-3. Lock Screen
-~~~~~~~~~~~~~~
+3. `Lock Screen <https://surveys.cs.berkeley.edu/lockscreen/lockscreen.html>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 This experiment looks at how users interact with their lock screens. We collect
 log information on whether a code-based lock is enabled, how much time is spent
