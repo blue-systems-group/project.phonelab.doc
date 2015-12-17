@@ -4,11 +4,11 @@ Summary
 -------
 PhoneLab's instrumented Android platform currently contains:
 
-* 20 tags, 45 actions,
+* 29 tags, 69 actions,
 
 * ... in 16 categories,
 
-* ... added by 3 institutions.
+* ... added by 4 institutions.
 
 
 
@@ -21,22 +21,22 @@ Tag: ``Activity-Prompt-UCB``
 
 #. | **Action**: ``PROMPT_DISMISS``
    | **Project**: `frameworks/base <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git>`_
-   | **File**: `services/core/java/com/android/server/am/ReservoirSampler.java:323 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=services/core/java/com/android/server/am/ReservoirSampler.java;hb=refs/heads/temp_tagdoc#l323>`_
+   | **File**: `services/core/java/com/android/server/am/ReservoirSampler.java:323 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=services/core/java/com/android/server/am/ReservoirSampler.java;hb=refs/heads/phonelab/android-5.1.1_r3/release-2.2.8#l323>`_
    | **Description**: Dismiss the prompt.
 
 #. | **Action**: ``PROMPT_INIT``
    | **Project**: `frameworks/base <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git>`_
-   | **File**: `services/core/java/com/android/server/am/ReservoirSampler.java:210 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=services/core/java/com/android/server/am/ReservoirSampler.java;hb=refs/heads/temp_tagdoc#l210>`_
+   | **File**: `services/core/java/com/android/server/am/ReservoirSampler.java:210 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=services/core/java/com/android/server/am/ReservoirSampler.java;hb=refs/heads/phonelab/android-5.1.1_r3/release-2.2.8#l210>`_
    | **Description**: Initiate the prompt.
 
 #. | **Action**: ``PROMPT_REACTION``
    | **Project**: `frameworks/base <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git>`_
-   | **File**: `services/core/java/com/android/server/am/ReservoirSampler.java:241 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=services/core/java/com/android/server/am/ReservoirSampler.java;hb=refs/heads/temp_tagdoc#l241>`_
+   | **File**: `services/core/java/com/android/server/am/ReservoirSampler.java:241 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=services/core/java/com/android/server/am/ReservoirSampler.java;hb=refs/heads/phonelab/android-5.1.1_r3/release-2.2.8#l241>`_
    | **Description**: Time taken to react to the custom permission prompt.
 
 #. | **Action**: ``PROMPT_REACTION``
    | **Project**: `frameworks/base <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git>`_
-   | **File**: `services/core/java/com/android/server/am/ReservoirSampler.java:271 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=services/core/java/com/android/server/am/ReservoirSampler.java;hb=refs/heads/temp_tagdoc#l271>`_
+   | **File**: `services/core/java/com/android/server/am/ReservoirSampler.java:271 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=services/core/java/com/android/server/am/ReservoirSampler.java;hb=refs/heads/phonelab/android-5.1.1_r3/release-2.2.8#l271>`_
    | **Description**: Time taken to react to the custom permission prompt.
 
 
@@ -46,7 +46,7 @@ Tag: ``Activity-Usage-UCB``
 
 #. | **Action**: ``ACTIVITY_USAGE``
    | **Project**: `frameworks/base <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git>`_
-   | **File**: `services/core/java/com/android/server/am/ActivityRecord.java:997 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=services/core/java/com/android/server/am/ActivityRecord.java;hb=refs/heads/temp_tagdoc#l997>`_
+   | **File**: `services/core/java/com/android/server/am/ActivityRecord.java:997 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=services/core/java/com/android/server/am/ActivityRecord.java;hb=refs/heads/phonelab/android-5.1.1_r3/release-2.2.8#l997>`_
    | **Description**: Users spent on each activity
 
 
@@ -60,7 +60,7 @@ Tag: ``Applications-Visibility-UCB``
 
 #. | **Action**: ``application_visibility_changed``
    | **Project**: `frameworks/base <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git>`_
-   | **File**: `services/core/java/com/android/server/am/ActivityManagerService.java:18200 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=services/core/java/com/android/server/am/ActivityManagerService.java;hb=refs/heads/temp_tagdoc#l18200>`_
+   | **File**: `services/core/java/com/android/server/am/ActivityManagerService.java:18200 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=services/core/java/com/android/server/am/ActivityManagerService.java;hb=refs/heads/phonelab/android-5.1.1_r3/release-2.2.8#l18200>`_
    | **Description**: Logs when an application executes visibly to the end user
 
 
@@ -74,27 +74,27 @@ Tag: ``Audio-Ringer-UCB``
 
 #. | **Action**: ``Speakerphone_mode_changed``
    | **Project**: `frameworks/base <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git>`_
-   | **File**: `media/java/android/media/AudioService.java:2542 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=media/java/android/media/AudioService.java;hb=refs/heads/temp_tagdoc#l2542>`_
+   | **File**: `media/java/android/media/AudioService.java:2542 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=media/java/android/media/AudioService.java;hb=refs/heads/phonelab/android-5.1.1_r3/release-2.2.8#l2542>`_
    | **Description**: Logging when the speaker phone mode is changed.
 
 #. | **Action**: ``Speakerphone_mode_changed``
    | **Project**: `frameworks/base <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git>`_
-   | **File**: `media/java/android/media/AudioService.java:2564 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=media/java/android/media/AudioService.java;hb=refs/heads/temp_tagdoc#l2564>`_
+   | **File**: `media/java/android/media/AudioService.java:2564 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=media/java/android/media/AudioService.java;hb=refs/heads/phonelab/android-5.1.1_r3/release-2.2.8#l2564>`_
    | **Description**: Logging when the speaker phone mode is changed.
 
 #. | **Action**: ``android.media.RINGER_MODE_CHANGED``
    | **Project**: `frameworks/base <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git>`_
-   | **File**: `media/java/android/media/AudioService.java:1911 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=media/java/android/media/AudioService.java;hb=refs/heads/temp_tagdoc#l1911>`_
+   | **File**: `media/java/android/media/AudioService.java:1911 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=media/java/android/media/AudioService.java;hb=refs/heads/phonelab/android-5.1.1_r3/release-2.2.8#l1911>`_
    | **Description**: Ringer mode was changed.
 
 #. | **Action**: ``android.media.RINGER_MODE_CHANGED``
    | **Project**: `frameworks/base <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git>`_
-   | **File**: `media/java/android/media/AudioService.java:1933 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=media/java/android/media/AudioService.java;hb=refs/heads/temp_tagdoc#l1933>`_
+   | **File**: `media/java/android/media/AudioService.java:1933 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=media/java/android/media/AudioService.java;hb=refs/heads/phonelab/android-5.1.1_r3/release-2.2.8#l1933>`_
    | **Description**: Ringer mode was changed.
 
 #. | **Action**: ``microphone_muted``
    | **Project**: `frameworks/base <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git>`_
-   | **File**: `media/java/android/media/AudioService.java:1828 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=media/java/android/media/AudioService.java;hb=refs/heads/temp_tagdoc#l1828>`_
+   | **File**: `media/java/android/media/AudioService.java:1828 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=media/java/android/media/AudioService.java;hb=refs/heads/phonelab/android-5.1.1_r3/release-2.2.8#l1828>`_
    | **Description**: Logging when the microphone is mute.
 
 
@@ -108,22 +108,22 @@ Tag: ``Camera-Picture-UCB``
 
 #. | **Action**: ``CAMERA_FRAME_CAPTURE_STARTED``
    | **Project**: `frameworks/base <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git>`_
-   | **File**: `core/java/android/hardware/Camera.java:1121 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=core/java/android/hardware/Camera.java;hb=refs/heads/temp_tagdoc#l1121>`_
+   | **File**: `core/java/android/hardware/Camera.java:1121 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=core/java/android/hardware/Camera.java;hb=refs/heads/phonelab/android-5.1.1_r3/release-2.2.8#l1121>`_
    | **Description**: Picture was taken with camera.
 
 #. | **Action**: ``android.hardware.action.NEW_PICTURE``
    | **Project**: `frameworks/base <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git>`_
-   | **File**: `core/java/android/hardware/Camera.java:1469 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=core/java/android/hardware/Camera.java;hb=refs/heads/temp_tagdoc#l1469>`_
+   | **File**: `core/java/android/hardware/Camera.java:1469 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=core/java/android/hardware/Camera.java;hb=refs/heads/phonelab/android-5.1.1_r3/release-2.2.8#l1469>`_
    | **Description**: Picture was taken with camera.
 
 #. | **Action**: ``repeating_capture_request``
    | **Project**: `frameworks/base <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git>`_
-   | **File**: `core/java/android/hardware/camera2/impl/CameraCaptureSessionImpl.java:203 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=core/java/android/hardware/camera2/impl/CameraCaptureSessionImpl.java;hb=refs/heads/temp_tagdoc#l203>`_
+   | **File**: `core/java/android/hardware/camera2/impl/CameraCaptureSessionImpl.java:203 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=core/java/android/hardware/camera2/impl/CameraCaptureSessionImpl.java;hb=refs/heads/phonelab/android-5.1.1_r3/release-2.2.8#l203>`_
    | **Description**: Repeating frame capture request sent to camera.
 
 #. | **Action**: ``single_capture_request``
    | **Project**: `frameworks/base <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git>`_
-   | **File**: `core/java/android/hardware/camera2/impl/CameraCaptureSessionImpl.java:162 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=core/java/android/hardware/camera2/impl/CameraCaptureSessionImpl.java;hb=refs/heads/temp_tagdoc#l162>`_
+   | **File**: `core/java/android/hardware/camera2/impl/CameraCaptureSessionImpl.java:162 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=core/java/android/hardware/camera2/impl/CameraCaptureSessionImpl.java;hb=refs/heads/phonelab/android-5.1.1_r3/release-2.2.8#l162>`_
    | **Description**: Single frame capture request sent to camera.
 
 
@@ -137,7 +137,7 @@ Tag: ``Chrome-URLType-UCB``
 
 #. | **Action**: ``VISITED_URL_TYPE``
    | **Project**: `frameworks/base <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git>`_
-   | **File**: `core/java/android/widget/ImageView.java:422 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=core/java/android/widget/ImageView.java;hb=refs/heads/temp_tagdoc#l422>`_
+   | **File**: `core/java/android/widget/ImageView.java:422 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=core/java/android/widget/ImageView.java;hb=refs/heads/phonelab/android-5.1.1_r3/release-2.2.8#l422>`_
    | **Description**: Logging the URL type visited https/http/invalid SSL.
 
 
@@ -151,7 +151,7 @@ Tag: ``Content-Picture-UCB``
 
 #. | **Action**: ``PICTURE_STORE_ACCESSED``
    | **Project**: `frameworks/base <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git>`_
-   | **File**: `core/java/android/content/ContentResolver.java:634 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=core/java/android/content/ContentResolver.java;hb=refs/heads/temp_tagdoc#l634>`_
+   | **File**: `core/java/android/content/ContentResolver.java:634 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=core/java/android/content/ContentResolver.java;hb=refs/heads/phonelab/android-5.1.1_r3/release-2.2.8#l634>`_
    | **Description**: An application access a picture file.
 
 
@@ -165,12 +165,12 @@ Tag: ``Headphone-Headset-UCB``
 
 #. | **Action**: ``headphone_headset_connection``
    | **Project**: `frameworks/base <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git>`_
-   | **File**: `media/java/android/media/AudioService.java:3545 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=media/java/android/media/AudioService.java;hb=refs/heads/temp_tagdoc#l3545>`_
+   | **File**: `media/java/android/media/AudioService.java:3545 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=media/java/android/media/AudioService.java;hb=refs/heads/phonelab/android-5.1.1_r3/release-2.2.8#l3545>`_
    | **Description**: Logging a headset is connected or disconnected.
 
 #. | **Action**: ``headphone_headset_connection``
    | **Project**: `frameworks/base <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git>`_
-   | **File**: `media/java/android/media/AudioService.java:3568 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=media/java/android/media/AudioService.java;hb=refs/heads/temp_tagdoc#l3568>`_
+   | **File**: `media/java/android/media/AudioService.java:3568 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=media/java/android/media/AudioService.java;hb=refs/heads/phonelab/android-5.1.1_r3/release-2.2.8#l3568>`_
    | **Description**: Logging a headset is connected or disconnected.
 
 
@@ -184,8 +184,28 @@ Tag: ``Location-Misc-PhoneLab``
 
 #. | **Action**: ``android.location.LOCATION_CHANGED``
    | **Project**: `frameworks/base <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git>`_
-   | **File**: `services/core/java/com/android/server/LocationManagerService.java:2152 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=services/core/java/com/android/server/LocationManagerService.java;hb=refs/heads/temp_tagdoc#l2152>`_
+   | **File**: `services/core/java/com/android/server/LocationManagerService.java:2152 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=services/core/java/com/android/server/LocationManagerService.java;hb=refs/heads/phonelab/android-5.1.1_r3/release-2.2.8#l2152>`_
    | **Description**: Location update.
+
+
+
+Tag: ``Location-Settings-UCB``
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+#. | **Action**: ``com.android.settings.location.MODE_CHANGING``
+   | **Project**: `packages/apps/Settings <http://platform.phone-lab.org:8080/gitweb?p=platform/packages/apps/Settings.git>`_
+   | **File**: `src/com/android/settings/location/LocationSettingsBase.java:114 <http://platform.phone-lab.org:8080/gitweb?p=platform/packages/apps/Settings.git;a=blob;f=src/com/android/settings/location/LocationSettingsBase.java;hb=refs/heads/phonelab/android-5.1.1_r3/release-2.2.8#l114>`_
+   | **Description**: User changed location mode.
+
+#. | **Action**: ``none``
+   | **Project**: `packages/apps/Settings <http://platform.phone-lab.org:8080/gitweb?p=platform/packages/apps/Settings.git>`_
+   | **File**: `src/com/android/settings/location/LocationSettings.java:113 <http://platform.phone-lab.org:8080/gitweb?p=platform/packages/apps/Settings.git;a=blob;f=src/com/android/settings/location/LocationSettings.java;hb=refs/heads/phonelab/android-5.1.1_r3/release-2.2.8#l113>`_
+   | **Description**: User opened location settings menu.
+
+#. | **Action**: ``none``
+   | **Project**: `packages/apps/Settings <http://platform.phone-lab.org:8080/gitweb?p=platform/packages/apps/Settings.git>`_
+   | **File**: `src/com/android/settings/location/LocationSettings.java:150 <http://platform.phone-lab.org:8080/gitweb?p=platform/packages/apps/Settings.git;a=blob;f=src/com/android/settings/location/LocationSettings.java;hb=refs/heads/phonelab/android-5.1.1_r3/release-2.2.8#l150>`_
+   | **Description**: User closed location settings menu.
 
 
 
@@ -193,53 +213,118 @@ Catetory: Network
 +++++++++++++++++
 
 
+Tag: ``Network-BLE-UMICH_RTCL``
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+#. | **Action**: ``BLE_ADV_PACKET_RECEIVED``
+   | **Project**: `external/bluetooth/bluedroid <http://platform.phone-lab.org:8080/gitweb?p=platform/external/bluetooth/bluedroid.git>`_
+   | **File**: `stack/btm/btm_ble_gap.c:2450 <http://platform.phone-lab.org:8080/gitweb?p=platform/external/bluetooth/bluedroid.git;a=blob;f=stack/btm/btm_ble_gap.c;hb=refs/heads/phonelab/android-5.1.1_r3/release-2.2.8#l2450>`_
+   | **Description**: BLE radio recevied an advertisemnt packet and passed it to the host
+
+#. | **Action**: ``GET_BONDED_DEVICES``
+   | **Project**: `packages/apps/Bluetooth <http://platform.phone-lab.org:8080/gitweb?p=platform/packages/apps/Bluetooth.git>`_
+   | **File**: `src/com/android/bluetooth/btservice/AdapterProperties.java:541 <http://platform.phone-lab.org:8080/gitweb?p=platform/packages/apps/Bluetooth.git;a=blob;f=src/com/android/bluetooth/btservice/AdapterProperties.java;hb=refs/heads/phonelab/android-5.1.1_r3/release-2.2.8#l541>`_
+   | **Description**: log the bonded devices when Bluetooth radio turns on
+
+#. | **Action**: ``android.bluetooth.device.action.BOND_STATE_CHANGED``
+   | **Project**: `packages/apps/Bluetooth <http://platform.phone-lab.org:8080/gitweb?p=platform/packages/apps/Bluetooth.git>`_
+   | **File**: `src/com/android/bluetooth/btservice/AdapterProperties.java:299 <http://platform.phone-lab.org:8080/gitweb?p=platform/packages/apps/Bluetooth.git;a=blob;f=src/com/android/bluetooth/btservice/AdapterProperties.java;hb=refs/heads/phonelab/android-5.1.1_r3/release-2.2.8#l299>`_
+   | **Description**: Bluetooth low energy bonded device event.
+
+
+
 Tag: ``Network-Telephony-PhoneLab``
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 #. | **Action**: ``android.intent.action.ANY_DATA_STATE``
    | **Project**: `frameworks/base <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git>`_
-   | **File**: `services/core/java/com/android/server/TelephonyRegistry.java:1476 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=services/core/java/com/android/server/TelephonyRegistry.java;hb=refs/heads/temp_tagdoc#l1476>`_
+   | **File**: `services/core/java/com/android/server/TelephonyRegistry.java:1476 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=services/core/java/com/android/server/TelephonyRegistry.java;hb=refs/heads/phonelab/android-5.1.1_r3/release-2.2.8#l1476>`_
    | **Description**: Cellular data connectivity changed.
 
 #. | **Action**: ``android.intent.action.DATA_CONNECTION_FAILED``
    | **Project**: `frameworks/base <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git>`_
-   | **File**: `services/core/java/com/android/server/TelephonyRegistry.java:1533 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=services/core/java/com/android/server/TelephonyRegistry.java;hb=refs/heads/temp_tagdoc#l1533>`_
+   | **File**: `services/core/java/com/android/server/TelephonyRegistry.java:1533 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=services/core/java/com/android/server/TelephonyRegistry.java;hb=refs/heads/phonelab/android-5.1.1_r3/release-2.2.8#l1533>`_
    | **Description**: Cellular data connection failed.
 
 #. | **Action**: ``android.intent.action.PHONE_STATE``
    | **Project**: `frameworks/base <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git>`_
-   | **File**: `services/core/java/com/android/server/TelephonyRegistry.java:1443 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=services/core/java/com/android/server/TelephonyRegistry.java;hb=refs/heads/temp_tagdoc#l1443>`_
+   | **File**: `services/core/java/com/android/server/TelephonyRegistry.java:1443 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=services/core/java/com/android/server/TelephonyRegistry.java;hb=refs/heads/phonelab/android-5.1.1_r3/release-2.2.8#l1443>`_
    | **Description**: Phone calling state changed (incoming call).
 
 #. | **Action**: ``android.intent.action.SERVICE_STATE``
    | **Project**: `frameworks/base <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git>`_
-   | **File**: `services/core/java/com/android/server/TelephonyRegistry.java:1368 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=services/core/java/com/android/server/TelephonyRegistry.java;hb=refs/heads/temp_tagdoc#l1368>`_
+   | **File**: `services/core/java/com/android/server/TelephonyRegistry.java:1368 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=services/core/java/com/android/server/TelephonyRegistry.java;hb=refs/heads/phonelab/android-5.1.1_r3/release-2.2.8#l1368>`_
    | **Description**: Cellular service state changed.
 
 #. | **Action**: ``android.intent.action.SIG_STR``
    | **Project**: `frameworks/base <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git>`_
-   | **File**: `services/core/java/com/android/server/TelephonyRegistry.java:1403 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=services/core/java/com/android/server/TelephonyRegistry.java;hb=refs/heads/temp_tagdoc#l1403>`_
+   | **File**: `services/core/java/com/android/server/TelephonyRegistry.java:1403 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=services/core/java/com/android/server/TelephonyRegistry.java;hb=refs/heads/phonelab/android-5.1.1_r3/release-2.2.8#l1403>`_
    | **Description**: Cellular signal strength changed.
 
 #. | **Action**: ``android.telephony.CALL_FORWARDING_CHANGED``
    | **Project**: `frameworks/base <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git>`_
-   | **File**: `services/core/java/com/android/server/TelephonyRegistry.java:932 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=services/core/java/com/android/server/TelephonyRegistry.java;hb=refs/heads/temp_tagdoc#l932>`_
+   | **File**: `services/core/java/com/android/server/TelephonyRegistry.java:932 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=services/core/java/com/android/server/TelephonyRegistry.java;hb=refs/heads/phonelab/android-5.1.1_r3/release-2.2.8#l932>`_
    | **Description**: Call forwarding status changed.
 
 #. | **Action**: ``android.telephony.CELL_LOCATION_CHANGED``
    | **Project**: `frameworks/base <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git>`_
-   | **File**: `services/core/java/com/android/server/TelephonyRegistry.java:1159 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=services/core/java/com/android/server/TelephonyRegistry.java;hb=refs/heads/temp_tagdoc#l1159>`_
+   | **File**: `services/core/java/com/android/server/TelephonyRegistry.java:1159 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=services/core/java/com/android/server/TelephonyRegistry.java;hb=refs/heads/phonelab/android-5.1.1_r3/release-2.2.8#l1159>`_
    | **Description**: Cell tower location changed.
 
 #. | **Action**: ``android.telephony.DATA_ACTIVITY_CHANGED``
    | **Project**: `frameworks/base <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git>`_
-   | **File**: `services/core/java/com/android/server/TelephonyRegistry.java:975 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=services/core/java/com/android/server/TelephonyRegistry.java;hb=refs/heads/temp_tagdoc#l975>`_
+   | **File**: `services/core/java/com/android/server/TelephonyRegistry.java:975 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=services/core/java/com/android/server/TelephonyRegistry.java;hb=refs/heads/phonelab/android-5.1.1_r3/release-2.2.8#l975>`_
    | **Description**: Cellular data activity.
 
 #. | **Action**: ``android.telephony.MESSAGE_WAITING_CHANGED``
    | **Project**: `frameworks/base <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git>`_
-   | **File**: `services/core/java/com/android/server/TelephonyRegistry.java:884 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=services/core/java/com/android/server/TelephonyRegistry.java;hb=refs/heads/temp_tagdoc#l884>`_
+   | **File**: `services/core/java/com/android/server/TelephonyRegistry.java:884 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=services/core/java/com/android/server/TelephonyRegistry.java;hb=refs/heads/phonelab/android-5.1.1_r3/release-2.2.8#l884>`_
    | **Description**: Message waiting status changed.
+
+
+
+Tag: ``Network-Wifi-PhoneLab``
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+#. | **Action**: ``android.net.wifi.LINK_CONFIGURATION_CHANGED``
+   | **Project**: `frameworks/opt/net/wifi <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/opt/net/wifi.git>`_
+   | **File**: `service/java/com/android/server/wifi/WifiStateMachine.java:4289 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/opt/net/wifi.git;a=blob;f=service/java/com/android/server/wifi/WifiStateMachine.java;hb=refs/heads/phonelab/android-5.1.1_r3/release-2.2.8#l4289>`_
+   | **Description**: Link confiration changed.
+
+#. | **Action**: ``android.net.wifi.LINK_STATUS``
+   | **Project**: `frameworks/opt/net/wifi <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/opt/net/wifi.git>`_
+   | **File**: `service/java/com/android/server/wifi/WifiWatchdogStateMachine.java:932 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/opt/net/wifi.git;a=blob;f=service/java/com/android/server/wifi/WifiWatchdogStateMachine.java;hb=refs/heads/phonelab/android-5.1.1_r3/release-2.2.8#l932>`_
+   | **Description**: Poor/Good Wifi link.
+
+#. | **Action**: ``android.net.wifi.RSSI_CHANGED``
+   | **Project**: `frameworks/opt/net/wifi <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/opt/net/wifi.git>`_
+   | **File**: `service/java/com/android/server/wifi/WifiStateMachine.java:4228 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/opt/net/wifi.git;a=blob;f=service/java/com/android/server/wifi/WifiStateMachine.java;hb=refs/heads/phonelab/android-5.1.1_r3/release-2.2.8#l4228>`_
+   | **Description**: Link RSSI update.
+
+#. | **Action**: ``android.net.wifi.RSSI_PKTCNT_UPDATE``
+   | **Project**: `frameworks/opt/net/wifi <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/opt/net/wifi.git>`_
+   | **File**: `service/java/com/android/server/wifi/WifiStateMachine.java:3937 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/opt/net/wifi.git;a=blob;f=service/java/com/android/server/wifi/WifiStateMachine.java;hb=refs/heads/phonelab/android-5.1.1_r3/release-2.2.8#l3937>`_
+   | **Description**: Wifi RSSI and packet loss counters.
+
+#. | **Action**: ``android.net.wifi.SCAN_RESULTS``
+   | **Project**: `frameworks/opt/net/wifi <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/opt/net/wifi.git>`_
+   | **File**: `service/java/com/android/server/wifi/WifiStateMachine.java:4205 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/opt/net/wifi.git;a=blob;f=service/java/com/android/server/wifi/WifiStateMachine.java;hb=refs/heads/phonelab/android-5.1.1_r3/release-2.2.8#l4205>`_
+   | **Description**: Wifi scan results.
+
+#. | **Action**: ``android.net.wifi.STATE_CHANGE``
+   | **Project**: `frameworks/opt/net/wifi <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/opt/net/wifi.git>`_
+   | **File**: `service/java/com/android/server/wifi/WifiStateMachine.java:4257 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/opt/net/wifi.git;a=blob;f=service/java/com/android/server/wifi/WifiStateMachine.java;hb=refs/heads/phonelab/android-5.1.1_r3/release-2.2.8#l4257>`_
+   | **Description**: Network connected/disconnected.
+
+#. | **Action**: ``android.net.wifi.WIFI_STATE_CHANGED``
+   | **Project**: `frameworks/opt/net/wifi <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/opt/net/wifi.git>`_
+   | **File**: `service/java/com/android/server/wifi/WifiStateMachine.java:3231 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/opt/net/wifi.git;a=blob;f=service/java/com/android/server/wifi/WifiStateMachine.java;hb=refs/heads/phonelab/android-5.1.1_r3/release-2.2.8#l3231>`_
+   | **Description**: Wifi state change (enabled/disabled).
+
+#. | **Action**: ``android.net.wifi.supplicant.STATE_CHANGE``
+   | **Project**: `frameworks/opt/net/wifi <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/opt/net/wifi.git>`_
+   | **File**: `service/java/com/android/server/wifi/WifiStateMachine.java:4313 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/opt/net/wifi.git;a=blob;f=service/java/com/android/server/wifi/WifiStateMachine.java;hb=refs/heads/phonelab/android-5.1.1_r3/release-2.2.8#l4313>`_
+   | **Description**: WPA supplicant conection state change.
 
 
 
@@ -252,22 +337,22 @@ Tag: ``Notifications-Persistence-UCB``
 
 #. | **Action**: ``all_notifications_dismissed``
    | **Project**: `frameworks/base <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git>`_
-   | **File**: `core/java/android/app/NotificationManager.java:325 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=core/java/android/app/NotificationManager.java;hb=refs/heads/temp_tagdoc#l325>`_
+   | **File**: `core/java/android/app/NotificationManager.java:325 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=core/java/android/app/NotificationManager.java;hb=refs/heads/phonelab/android-5.1.1_r3/release-2.2.8#l325>`_
    | **Description**: All notifications were dismissed.
 
 #. | **Action**: ``notification_appeared``
    | **Project**: `frameworks/base <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git>`_
-   | **File**: `core/java/android/app/NotificationManager.java:168 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=core/java/android/app/NotificationManager.java;hb=refs/heads/temp_tagdoc#l168>`_
+   | **File**: `core/java/android/app/NotificationManager.java:168 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=core/java/android/app/NotificationManager.java;hb=refs/heads/phonelab/android-5.1.1_r3/release-2.2.8#l168>`_
    | **Description**: A notification was posted.
 
 #. | **Action**: ``notification_dismissed``
    | **Project**: `frameworks/base <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git>`_
-   | **File**: `core/java/android/app/NotificationManager.java:248 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=core/java/android/app/NotificationManager.java;hb=refs/heads/temp_tagdoc#l248>`_
+   | **File**: `core/java/android/app/NotificationManager.java:248 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=core/java/android/app/NotificationManager.java;hb=refs/heads/phonelab/android-5.1.1_r3/release-2.2.8#l248>`_
    | **Description**: A posted notification was dismissed.
 
 #. | **Action**: ``notification_dismissed``
    | **Project**: `frameworks/base <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git>`_
-   | **File**: `core/java/android/app/NotificationManager.java:286 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=core/java/android/app/NotificationManager.java;hb=refs/heads/temp_tagdoc#l286>`_
+   | **File**: `core/java/android/app/NotificationManager.java:286 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=core/java/android/app/NotificationManager.java;hb=refs/heads/phonelab/android-5.1.1_r3/release-2.2.8#l286>`_
    | **Description**: A posted notification was dismissed.
 
 
@@ -281,7 +366,7 @@ Tag: ``PackageManager-Misc-PhoneLab``
 
 #. | **Action**: ``android.intent.action.PACKAGE_{ADDED, CHANGED, REMOVED}``
    | **Project**: `frameworks/base <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git>`_
-   | **File**: `services/core/java/com/android/server/pm/PackageManagerService.java:7971 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=services/core/java/com/android/server/pm/PackageManagerService.java;hb=refs/heads/temp_tagdoc#l7971>`_
+   | **File**: `services/core/java/com/android/server/pm/PackageManagerService.java:7971 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=services/core/java/com/android/server/pm/PackageManagerService.java;hb=refs/heads/phonelab/android-5.1.1_r3/release-2.2.8#l7971>`_
    | **Description**: Package installed/uninstalled/updated.
 
 
@@ -295,7 +380,7 @@ Tag: ``Permission-Sensitive-UCB``
 
 #. | **Action**: ``Sensitive_Permission_Request``
    | **Project**: `frameworks/base <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git>`_
-   | **File**: `services/core/java/com/android/server/am/ActivityManagerService.java:6943 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=services/core/java/com/android/server/am/ActivityManagerService.java;hb=refs/heads/temp_tagdoc#l6943>`_
+   | **File**: `services/core/java/com/android/server/am/ActivityManagerService.java:6943 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=services/core/java/com/android/server/am/ActivityManagerService.java;hb=refs/heads/phonelab/android-5.1.1_r3/release-2.2.8#l6943>`_
    | **Description**: Logging sensitive requests made by third party applications.
 
 
@@ -309,7 +394,7 @@ Tag: ``PhoneCall-Duration-UCB``
 
 #. | **Action**: ``Phone_call_duration``
    | **Project**: `frameworks/base <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git>`_
-   | **File**: `core/java/android/provider/CallLog.java:457 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=core/java/android/provider/CallLog.java;hb=refs/heads/temp_tagdoc#l457>`_
+   | **File**: `core/java/android/provider/CallLog.java:457 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=core/java/android/provider/CallLog.java;hb=refs/heads/phonelab/android-5.1.1_r3/release-2.2.8#l457>`_
    | **Description**: Logging call durations.
 
 
@@ -323,7 +408,7 @@ Tag: ``Power-Battery-PhoneLab``
 
 #. | **Action**: ``android.intent.action.BATTERY_CHANGED``
    | **Project**: `frameworks/base <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git>`_
-   | **File**: `services/core/java/com/android/server/BatteryService.java:491 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=services/core/java/com/android/server/BatteryService.java;hb=refs/heads/temp_tagdoc#l491>`_
+   | **File**: `services/core/java/com/android/server/BatteryService.java:491 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=services/core/java/com/android/server/BatteryService.java;hb=refs/heads/phonelab/android-5.1.1_r3/release-2.2.8#l491>`_
    | **Description**: Battery status changed.
 
 
@@ -333,12 +418,12 @@ Tag: ``Power-Boot-PhoneLab``
 
 #. | **Action**: ``android.intent.action.ACTION_BOOT_COMPLETED``
    | **Project**: `frameworks/base <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git>`_
-   | **File**: `services/core/java/com/android/server/am/ActivityManagerService.java:6265 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=services/core/java/com/android/server/am/ActivityManagerService.java;hb=refs/heads/temp_tagdoc#l6265>`_
+   | **File**: `services/core/java/com/android/server/am/ActivityManagerService.java:6265 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=services/core/java/com/android/server/am/ActivityManagerService.java;hb=refs/heads/phonelab/android-5.1.1_r3/release-2.2.8#l6265>`_
    | **Description**: Device finished booting.
 
 #. | **Action**: ``android.intent.action.ACTION_SHUTDOWN``
    | **Project**: `frameworks/base <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git>`_
-   | **File**: `services/core/java/com/android/server/power/ShutdownThread.java:314 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=services/core/java/com/android/server/power/ShutdownThread.java;hb=refs/heads/temp_tagdoc#l314>`_
+   | **File**: `services/core/java/com/android/server/power/ShutdownThread.java:314 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=services/core/java/com/android/server/power/ShutdownThread.java;hb=refs/heads/phonelab/android-5.1.1_r3/release-2.2.8#l314>`_
    | **Description**: Device is shutting down
 
 
@@ -348,12 +433,12 @@ Tag: ``Power-Screen-PhoneLab``
 
 #. | **Action**: ``android.intent.action.SCREEN_OFF``
    | **Project**: `frameworks/base <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git>`_
-   | **File**: `services/core/java/com/android/server/power/Notifier.java:507 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=services/core/java/com/android/server/power/Notifier.java;hb=refs/heads/temp_tagdoc#l507>`_
+   | **File**: `services/core/java/com/android/server/power/Notifier.java:507 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=services/core/java/com/android/server/power/Notifier.java;hb=refs/heads/phonelab/android-5.1.1_r3/release-2.2.8#l507>`_
    | **Description**: Screen turned off.
 
 #. | **Action**: ``android.intent.action.SCREEN_ON``
    | **Project**: `frameworks/base <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git>`_
-   | **File**: `services/core/java/com/android/server/power/Notifier.java:469 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=services/core/java/com/android/server/power/Notifier.java;hb=refs/heads/temp_tagdoc#l469>`_
+   | **File**: `services/core/java/com/android/server/power/Notifier.java:469 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=services/core/java/com/android/server/power/Notifier.java;hb=refs/heads/phonelab/android-5.1.1_r3/release-2.2.8#l469>`_
    | **Description**: Screen turned on.
 
 
@@ -363,17 +448,17 @@ Tag: ``Power-Screen-UCB``
 
 #. | **Action**: ``app_turned_off_screen``
    | **Project**: `frameworks/base <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git>`_
-   | **File**: `services/core/java/com/android/server/power/PowerManagerService.java:1121 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=services/core/java/com/android/server/power/PowerManagerService.java;hb=refs/heads/temp_tagdoc#l1121>`_
+   | **File**: `services/core/java/com/android/server/power/PowerManagerService.java:1121 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=services/core/java/com/android/server/power/PowerManagerService.java;hb=refs/heads/phonelab/android-5.1.1_r3/release-2.2.8#l1121>`_
    | **Description**: App requested to turn off screen
 
 #. | **Action**: ``timeout_turned_off_screen``
    | **Project**: `frameworks/base <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git>`_
-   | **File**: `services/core/java/com/android/server/power/PowerManagerService.java:1079 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=services/core/java/com/android/server/power/PowerManagerService.java;hb=refs/heads/temp_tagdoc#l1079>`_
+   | **File**: `services/core/java/com/android/server/power/PowerManagerService.java:1079 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=services/core/java/com/android/server/power/PowerManagerService.java;hb=refs/heads/phonelab/android-5.1.1_r3/release-2.2.8#l1079>`_
    | **Description**: Screen timed out without user interaction
 
 #. | **Action**: ``user_turned_off_screen``
    | **Project**: `frameworks/base <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git>`_
-   | **File**: `services/core/java/com/android/server/power/PowerManagerService.java:1100 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=services/core/java/com/android/server/power/PowerManagerService.java;hb=refs/heads/temp_tagdoc#l1100>`_
+   | **File**: `services/core/java/com/android/server/power/PowerManagerService.java:1100 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=services/core/java/com/android/server/power/PowerManagerService.java;hb=refs/heads/phonelab/android-5.1.1_r3/release-2.2.8#l1100>`_
    | **Description**: User pressed power button to turn off screen
 
 
@@ -382,68 +467,108 @@ Catetory: Security
 ++++++++++++++++++
 
 
+Tag: ``Security-2FA-UCB``
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+#. | **Action**: ``google_2fa_sms``
+   | **Project**: `frameworks/opt/telephony <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/opt/telephony.git>`_
+   | **File**: `src/java/com/android/internal/telephony/InboundSmsHandler.java:486 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/opt/telephony.git;a=blob;f=src/java/com/android/internal/telephony/InboundSmsHandler.java;hb=refs/heads/phonelab/android-5.1.1_r3/release-2.2.8#l486>`_
+   | **Description**: User received an SMS from a 2FA site potentially
+
+
+
 Tag: ``Security-Lockscreen-ICSI``
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 #. | **Action**: ``BackPressed``
    | **Project**: `frameworks/base <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git>`_
-   | **File**: `packages/SystemUI/src/com/android/systemui/statusbar/phone/StatusBarKeyguardViewManager.java:330 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=packages/SystemUI/src/com/android/systemui/statusbar/phone/StatusBarKeyguardViewManager.java;hb=refs/heads/temp_tagdoc#l330>`_
+   | **File**: `packages/SystemUI/src/com/android/systemui/statusbar/phone/StatusBarKeyguardViewManager.java:330 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=packages/SystemUI/src/com/android/systemui/statusbar/phone/StatusBarKeyguardViewManager.java;hb=refs/heads/phonelab/android-5.1.1_r3/release-2.2.8#l330>`_
    | **Description**: Reports when the user presses the back button at the bottom of the lock screen.
 
 #. | **Action**: ``EnterLockScreen``
    | **Project**: `frameworks/base <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git>`_
-   | **File**: `packages/SystemUI/src/com/android/systemui/statusbar/phone/KeyguardBouncer.java:78 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=packages/SystemUI/src/com/android/systemui/statusbar/phone/KeyguardBouncer.java;hb=refs/heads/temp_tagdoc#l78>`_
+   | **File**: `packages/SystemUI/src/com/android/systemui/statusbar/phone/KeyguardBouncer.java:78 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=packages/SystemUI/src/com/android/systemui/statusbar/phone/KeyguardBouncer.java;hb=refs/heads/phonelab/android-5.1.1_r3/release-2.2.8#l78>`_
    | **Description**: Reports when the user makes the lock screen visible
 
 #. | **Action**: ``KeyEntryBegin``
    | **Project**: `frameworks/base <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git>`_
-   | **File**: `packages/Keyguard/src/com/android/keyguard/KeyguardPatternView.java:209 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=packages/Keyguard/src/com/android/keyguard/KeyguardPatternView.java;hb=refs/heads/temp_tagdoc#l209>`_
+   | **File**: `packages/Keyguard/src/com/android/keyguard/KeyguardPatternView.java:209 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=packages/Keyguard/src/com/android/keyguard/KeyguardPatternView.java;hb=refs/heads/phonelab/android-5.1.1_r3/release-2.2.8#l209>`_
    | **Description**: Reports when the user enters the first symbol of his unlock code. Also includes the name of the security mode that is currently active.
 
 #. | **Action**: ``KeyEntryBegin``
    | **Project**: `frameworks/base <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git>`_
-   | **File**: `packages/Keyguard/src/com/android/keyguard/KeyguardPinBasedInputView.java:231 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=packages/Keyguard/src/com/android/keyguard/KeyguardPinBasedInputView.java;hb=refs/heads/temp_tagdoc#l231>`_
+   | **File**: `packages/Keyguard/src/com/android/keyguard/KeyguardPinBasedInputView.java:231 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=packages/Keyguard/src/com/android/keyguard/KeyguardPinBasedInputView.java;hb=refs/heads/phonelab/android-5.1.1_r3/release-2.2.8#l231>`_
    | **Description**: Reports when the user enters the first symbol of his unlock code. Also includes the name of the security mode that is currently active.
 
 #. | **Action**: ``KeyEntryBegin``
    | **Project**: `frameworks/base <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git>`_
-   | **File**: `packages/Keyguard/src/com/android/keyguard/KeyguardPasswordView.java:150 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=packages/Keyguard/src/com/android/keyguard/KeyguardPasswordView.java;hb=refs/heads/temp_tagdoc#l150>`_
+   | **File**: `packages/Keyguard/src/com/android/keyguard/KeyguardPasswordView.java:150 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=packages/Keyguard/src/com/android/keyguard/KeyguardPasswordView.java;hb=refs/heads/phonelab/android-5.1.1_r3/release-2.2.8#l150>`_
    | **Description**: Reports when the user enters the first symbol of his unlock code. Also includes the name of the security mode that is currently active.
 
 #. | **Action**: ``KeyguardDismissed``
    | **Project**: `frameworks/base <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git>`_
-   | **File**: `packages/Keyguard/src/com/android/keyguard/KeyguardSecurityContainer.java:417 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=packages/Keyguard/src/com/android/keyguard/KeyguardSecurityContainer.java;hb=refs/heads/temp_tagdoc#l417>`_
+   | **File**: `packages/Keyguard/src/com/android/keyguard/KeyguardSecurityContainer.java:417 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=packages/Keyguard/src/com/android/keyguard/KeyguardSecurityContainer.java;hb=refs/heads/phonelab/android-5.1.1_r3/release-2.2.8#l417>`_
    | **Description**: returns the currently active security mode when the Keyguard was dismissed (either a successful unlock or no security mode was active). Authenticated is true if a security mode was active, false otherwise.
 
 #. | **Action**: ``UnlockAttempt``
    | **Project**: `frameworks/base <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git>`_
-   | **File**: `packages/Keyguard/src/com/android/keyguard/KeyguardPatternView.java:241 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=packages/Keyguard/src/com/android/keyguard/KeyguardPatternView.java;hb=refs/heads/temp_tagdoc#l241>`_
+   | **File**: `packages/Keyguard/src/com/android/keyguard/KeyguardPatternView.java:241 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=packages/Keyguard/src/com/android/keyguard/KeyguardPatternView.java;hb=refs/heads/phonelab/android-5.1.1_r3/release-2.2.8#l241>`_
    | **Description**: returns the currently active security mode and 'success' if unlocking the phone was successful. Also includes number of attempts and the length of the entered code/secret.
 
 #. | **Action**: ``UnlockAttempt``
    | **Project**: `frameworks/base <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git>`_
-   | **File**: `packages/Keyguard/src/com/android/keyguard/KeyguardPatternView.java:274 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=packages/Keyguard/src/com/android/keyguard/KeyguardPatternView.java;hb=refs/heads/temp_tagdoc#l274>`_
+   | **File**: `packages/Keyguard/src/com/android/keyguard/KeyguardPatternView.java:274 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=packages/Keyguard/src/com/android/keyguard/KeyguardPatternView.java;hb=refs/heads/phonelab/android-5.1.1_r3/release-2.2.8#l274>`_
    | **Description**: returns the currently active security mode and 'failed' if unlocking the phone has failed. Also includes number of attempts and the length of the entered code/secret.
 
 #. | **Action**: ``UnlockAttempt``
    | **Project**: `frameworks/base <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git>`_
-   | **File**: `packages/Keyguard/src/com/android/keyguard/KeyguardPatternView.java:299 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=packages/Keyguard/src/com/android/keyguard/KeyguardPatternView.java;hb=refs/heads/temp_tagdoc#l299>`_
+   | **File**: `packages/Keyguard/src/com/android/keyguard/KeyguardPatternView.java:299 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=packages/Keyguard/src/com/android/keyguard/KeyguardPatternView.java;hb=refs/heads/phonelab/android-5.1.1_r3/release-2.2.8#l299>`_
    | **Description**: returns the currently active security mode and 'too-short' if the entered code was too short to be considered a failed attempt. Also includes number of attempts and the length of the entered code/secret.
 
 #. | **Action**: ``UnlockAttempt``
    | **Project**: `frameworks/base <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git>`_
-   | **File**: `packages/Keyguard/src/com/android/keyguard/KeyguardAbsKeyInputView.java:117 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=packages/Keyguard/src/com/android/keyguard/KeyguardAbsKeyInputView.java;hb=refs/heads/temp_tagdoc#l117>`_
+   | **File**: `packages/Keyguard/src/com/android/keyguard/KeyguardAbsKeyInputView.java:117 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=packages/Keyguard/src/com/android/keyguard/KeyguardAbsKeyInputView.java;hb=refs/heads/phonelab/android-5.1.1_r3/release-2.2.8#l117>`_
    | **Description**: returns the currently active security mode and 'success' if unlocking the phone was successful. Also includes number of attempts and the length of the entered code/secret.
 
 #. | **Action**: ``UnlockAttempt``
    | **Project**: `frameworks/base <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git>`_
-   | **File**: `packages/Keyguard/src/com/android/keyguard/KeyguardAbsKeyInputView.java:145 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=packages/Keyguard/src/com/android/keyguard/KeyguardAbsKeyInputView.java;hb=refs/heads/temp_tagdoc#l145>`_
+   | **File**: `packages/Keyguard/src/com/android/keyguard/KeyguardAbsKeyInputView.java:145 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=packages/Keyguard/src/com/android/keyguard/KeyguardAbsKeyInputView.java;hb=refs/heads/phonelab/android-5.1.1_r3/release-2.2.8#l145>`_
    | **Description**: returns the currently active security mode and 'failed' if unlocking the phone has failed. Also includes number of attempts and the length of the entered code/secret.
 
 #. | **Action**: ``UnlockAttempt``
    | **Project**: `frameworks/base <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git>`_
-   | **File**: `packages/Keyguard/src/com/android/keyguard/KeyguardAbsKeyInputView.java:176 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=packages/Keyguard/src/com/android/keyguard/KeyguardAbsKeyInputView.java;hb=refs/heads/temp_tagdoc#l176>`_
+   | **File**: `packages/Keyguard/src/com/android/keyguard/KeyguardAbsKeyInputView.java:176 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=packages/Keyguard/src/com/android/keyguard/KeyguardAbsKeyInputView.java;hb=refs/heads/phonelab/android-5.1.1_r3/release-2.2.8#l176>`_
    | **Description**: returns the currently active security mode and 'too-short' if the entered code was too short to be considered a failed attempt. Also includes number of attempts and the length of the entered code/secret.
+
+
+
+Tag: ``Security-Lockscreen-UCB``
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+#. | **Action**: ``user_changed_lock_screen``
+   | **Project**: `packages/apps/Settings <http://platform.phone-lab.org:8080/gitweb?p=platform/packages/apps/Settings.git>`_
+   | **File**: `src/com/android/settings/ChooseLockGeneric.java:454 <http://platform.phone-lab.org:8080/gitweb?p=platform/packages/apps/Settings.git;a=blob;f=src/com/android/settings/ChooseLockGeneric.java;hb=refs/heads/phonelab/android-5.1.1_r3/release-2.2.8#l454>`_
+   | **Description**: The user changed their lock screen option
+
+
+
+Tag: ``Security-Settings-UCB``
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+#. | **Action**: ``user_change_security_settings``
+   | **Project**: `packages/apps/Settings <http://platform.phone-lab.org:8080/gitweb?p=platform/packages/apps/Settings.git>`_
+   | **File**: `src/com/android/settings/SecuritySettings.java:694 <http://platform.phone-lab.org:8080/gitweb?p=platform/packages/apps/Settings.git;a=blob;f=src/com/android/settings/SecuritySettings.java;hb=refs/heads/phonelab/android-5.1.1_r3/release-2.2.8#l694>`_
+   | **Description**: User changed preferences in security settings.
+
+#. | **Action**: ``user_close_security_settings``
+   | **Project**: `packages/apps/Settings <http://platform.phone-lab.org:8080/gitweb?p=platform/packages/apps/Settings.git>`_
+   | **File**: `src/com/android/settings/SecuritySettings.java:569 <http://platform.phone-lab.org:8080/gitweb?p=platform/packages/apps/Settings.git;a=blob;f=src/com/android/settings/SecuritySettings.java;hb=refs/heads/phonelab/android-5.1.1_r3/release-2.2.8#l569>`_
+   | **Description**: User closed security settings panel.
+
+#. | **Action**: ``user_open_security_settings``
+   | **Project**: `packages/apps/Settings <http://platform.phone-lab.org:8080/gitweb?p=platform/packages/apps/Settings.git>`_
+   | **File**: `src/com/android/settings/SecuritySettings.java:587 <http://platform.phone-lab.org:8080/gitweb?p=platform/packages/apps/Settings.git;a=blob;f=src/com/android/settings/SecuritySettings.java;hb=refs/heads/phonelab/android-5.1.1_r3/release-2.2.8#l587>`_
+   | **Description**: User opened security settings to view or change them.
 
 
 
@@ -451,12 +576,62 @@ Catetory: Settings
 ++++++++++++++++++
 
 
+Tag: ``Settings-Development-UCB``
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+#. | **Action**: ``DEVELOPMENT_SETTINGS_ENABLED``
+   | **Project**: `packages/apps/Settings <http://platform.phone-lab.org:8080/gitweb?p=platform/packages/apps/Settings.git>`_
+   | **File**: `src/com/android/settings/DevelopmentSettings.java:1569 <http://platform.phone-lab.org:8080/gitweb?p=platform/packages/apps/Settings.git;a=blob;f=src/com/android/settings/DevelopmentSettings.java;hb=refs/heads/phonelab/android-5.1.1_r3/release-2.2.8#l1569>`_
+   | **Description**: Logging development settins activation.
+
+
+
 Tag: ``Settings-Initialization-UCB``
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+#. | **Action**: ``DEVELOPMENT_SETTINGS_ENABLED``
+   | **Project**: `packages/apps/TvSettings <http://platform.phone-lab.org:8080/gitweb?p=platform/packages/apps/TvSettings.git>`_
+   | **File**: `Settings/src/com/android/tv/settings/PreferenceUtils.java:46 <http://platform.phone-lab.org:8080/gitweb?p=platform/packages/apps/TvSettings.git;a=blob;f=Settings/src/com/android/tv/settings/PreferenceUtils.java;hb=refs/heads/phonelab/android-5.1.1_r3/release-2.2.8#l46>`_
+   | **Description**: Logging the activation of development settings.
+
+#. | **Action**: ``NFC_INTIAL_SETTINGS``
+   | **Project**: `packages/apps/Nfc <http://platform.phone-lab.org:8080/gitweb?p=platform/packages/apps/Nfc.git>`_
+   | **File**: `src/com/android/nfc/NfcService.java:509 <http://platform.phone-lab.org:8080/gitweb?p=platform/packages/apps/Nfc.git;a=blob;f=src/com/android/nfc/NfcService.java;hb=refs/heads/phonelab/android-5.1.1_r3/release-2.2.8#l509>`_
+   | **Description**: Reading initial NFC settings.
+
 #. | **Action**: ``initial_settings_logged``
    | **Project**: `frameworks/base <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git>`_
-   | **File**: `services/core/java/com/android/server/am/ActivityManagerService.java:11538 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=services/core/java/com/android/server/am/ActivityManagerService.java;hb=refs/heads/temp_tagdoc#l11538>`_
+   | **File**: `services/core/java/com/android/server/am/ActivityManagerService.java:11538 <http://platform.phone-lab.org:8080/gitweb?p=platform/frameworks/base.git;a=blob;f=services/core/java/com/android/server/am/ActivityManagerService.java;hb=refs/heads/phonelab/android-5.1.1_r3/release-2.2.8#l11538>`_
    | **Description**: Logging initial user settings on phone startup.
+
+
+
+Tag: ``Settings-NFC-UCB``
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+#. | **Action**: ``android.nfc.action.ADAPTER_STATE_CHANGED``
+   | **Project**: `packages/apps/Settings <http://platform.phone-lab.org:8080/gitweb?p=platform/packages/apps/Settings.git>`_
+   | **File**: `src/com/android/settings/nfc/NfcEnabler.java:143 <http://platform.phone-lab.org:8080/gitweb?p=platform/packages/apps/Settings.git;a=blob;f=src/com/android/settings/nfc/NfcEnabler.java;hb=refs/heads/phonelab/android-5.1.1_r3/release-2.2.8#l143>`_
+   | **Description**: NFC state changed.
+
+#. | **Action**: ``user_disabled_nfc``
+   | **Project**: `packages/apps/Settings <http://platform.phone-lab.org:8080/gitweb?p=platform/packages/apps/Settings.git>`_
+   | **File**: `src/com/android/settings/nfc/NfcEnabler.java:123 <http://platform.phone-lab.org:8080/gitweb?p=platform/packages/apps/Settings.git;a=blob;f=src/com/android/settings/nfc/NfcEnabler.java;hb=refs/heads/phonelab/android-5.1.1_r3/release-2.2.8#l123>`_
+   | **Description**: User turned off NFC.
+
+#. | **Action**: ``user_enabled_nfc``
+   | **Project**: `packages/apps/Settings <http://platform.phone-lab.org:8080/gitweb?p=platform/packages/apps/Settings.git>`_
+   | **File**: `src/com/android/settings/nfc/NfcEnabler.java:108 <http://platform.phone-lab.org:8080/gitweb?p=platform/packages/apps/Settings.git;a=blob;f=src/com/android/settings/nfc/NfcEnabler.java;hb=refs/heads/phonelab/android-5.1.1_r3/release-2.2.8#l108>`_
+   | **Description**: User turned on NFC.
+
+
+
+Tag: ``Settings-NonMarketApp-UCB``
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+#. | **Action**: ``Settings_non_market_app_activations``
+   | **Project**: `packages/apps/TvSettings <http://platform.phone-lab.org:8080/gitweb?p=platform/packages/apps/TvSettings.git>`_
+   | **File**: `Settings/src/com/android/tv/settings/system/SecurityActivity.java:198 <http://platform.phone-lab.org:8080/gitweb?p=platform/packages/apps/TvSettings.git;a=blob;f=Settings/src/com/android/tv/settings/system/SecurityActivity.java;hb=refs/heads/phonelab/android-5.1.1_r3/release-2.2.8#l198>`_
+   | **Description**: Logging non market app activation.
 
 Last updated 2015-12-17
