@@ -72,8 +72,8 @@ outage.
  | University of Michigan, Ann Arbor
 
 
-6. Runtime Permission
-~~~~~~~~~~~~~~~~~~~~~
+6. `Runtime Permission <https://sites.google.com/site/runtimeperm/>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 This is a study on privacy preferences of mobile users when it comes to
 sensitive data requests originating from third party applications.  To that end,
