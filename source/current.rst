@@ -6,23 +6,13 @@ new ideas to experiment on PhoneLab that are made possible with PhoneLab's
 ability to modifying the AOSP platform. Over the years, PhoneLab has facilitated
 the following smartphone platform experiments.
 
-External
+Ongoing
 --------
 
-1. `LTE Handover Analysis <https://sites.google.com/a/umich.edu/robustnet-handover>`_
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-This experiment aims to study the decision policy and performance impact of
-handovers including WiFi-Cellular handover, IRAT (Inter radio access technology)
-handover, and intra-LTE handover.
-
-**Contact**
- | Shichang Shawn Xu (xsc@umich.edu)
- | University of Michigan, Ann Arbor
-
-
-2. `Bluetooth Low Energy <https://kabru.eecs.umich.edu/?page_id=971>`_
+1. `Bluetooth Low Energy <https://kabru.eecs.umich.edu/?page_id=971>`_
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Duration: 11/3/2015 - Present**
 
 We collect information that nearby BLE powered devices publicly broadcast. This
 enables us to study the privacy threats they pose. Please make sure you keep the
@@ -33,8 +23,10 @@ Bluetooth radio turned on for sometime during the day.
  | University of Michigan, Ann Arbor
 
 
-3. `Lock Screen <https://surveys.cs.berkeley.edu/lockscreen/lockscreen.html>`_
+2. `Lock Screen <https://surveys.cs.berkeley.edu/lockscreen/lockscreen.html>`_
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Duration: 10/22/2015 - Present(ongoing)**
 
 This experiment looks at how users interact with their lock screens. We collect
 log information on whether a code-based lock is enabled, how much time is spent
@@ -48,21 +40,70 @@ patterns.
  | International Computer Science Institute (ICSI), Berkeley
 
 
-4. `DefDroid <http://defdroid.github.io/>`_
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The goal of DefDroid is to make the mobile OS more defensive to curb the naughty
-apps that drain your battery or over-consume your mobile data, storage, etc. We
-design DefDroid so that it makes your mobile phone more sustainable
-without breaking the main functionalities of the apps.
+4. `Runtime Permission <https://sites.google.com/site/runtimeperm/>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Contact**: 
- | Ryan (Peng) Huang (ryanhuang@cs.ucsd.edu)
- | UCSD
+**Duration: 11/24/2015 - Present**
+
+This is a study on privacy preferences of mobile users when it comes to
+sensitive data requests originating from third party applications.  To that end,
+we want to track sensitive data requests and ask users whether they want to
+block such requests as it happens. However we hope to prompt the question at
+most once per day per user when such a request occurs. We are also hoping to log
+surrounding contextual data when such a question is prompted to the user.
+
+**Contact**:
+ | Primal Wijesekera (primal@berkeley.edu)
+ | UC Berkeley
 
 
-5. Crowdsourcing Power Outage Measurements
+5. `Jouler <https://blue.cse.buffalo.edu/projects/jouler/>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Duration: Ongoing**
+
+Despite the fact that current smartphone platforms already incorporate energy
+measurement tools and multiple energy control mechanisms, smartphone battery
+lifetimes continue to frustrate users. This is because measurements and
+mechanisms are of limited utility without policies that utilize them to achieve
+different energy management goals, such as meeting a lifetime target or
+providing good performance to a user’s favorite apps. To address this problem we
+are developing Jouler, a policy framework enabling effective and flexible
+smartphone energy management.
+
+**Contact**:
+ | Anudipa Maiti (anudipam@buffalo.edu)
+ | University at Buffalo
+
+
+6. `PocketData <http://odin.cse.buffalo.edu/research/pocketdata/>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Duration: Ongoing**
+
+The world’s 2 billion smartphones represent the most powerful and pervasive
+distributed system ever built. Open application marketplaces, such as the Google
+Play Store, have resulted in a vibrant software ecosystem comprising millions of
+smartphone and tablet apps in hundreds of different categories that both meet
+existing user needs and provide exciting novel capabilities. As mobile apps and
+devices become even more central to the personal computing experience, it is
+increasingly important to understand and improve their performance. In
+partnership with UB's PhoneLab, we are analyzing SQLite logs from smartphones
+deployed in the wild.
+
+**Contact**:
+ | Jerry Ajay (jerryant@buffalo.edu)
+ | University at Buffalo
+
+
+In Development
+--------------
+
+1. Crowdsourcing Power Outage Measurements
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Duration: Ongoing**
 
 This experiment collect smartphone's charging status data to infer power
 outage.
@@ -72,29 +113,95 @@ outage.
  | University of Michigan, Ann Arbor
 
 
-6. `Runtime Permission <https://sites.google.com/site/runtimeperm/>`_
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-This is a study on privacy preferences of mobile users when it comes to
-sensitive data requests originating from third party applications.  To that end,
-we want to track sensitive data requests and ask users whether they want to
-block such requests as it happens. However we hope to prompt the question at
-most once per day per user when such a request occurs. We are also hoping to log
-surrounding contextual data when such a question is prompted to the user. 
+Completed
+---------
+
+1. `DefDroid <http://defdroid.github.io/>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Duration: 9/21/2015 - 11/3/2015**
+
+The goal of DefDroid is to make the mobile OS more defensive to curb the naughty
+apps that drain your battery or over-consume your mobile data, storage, etc. We
+design DefDroid so that it makes your mobile phone more sustainable
+without breaking the main functionalities of the apps.
 
 **Contact**:
- | Primal Wijesekera (primal@berkeley.edu)
- | UC Berkeley
+ | Ryan (Peng) Huang (ryanhuang@cs.ucsd.edu)
+ | UCSD
 
 
+2. `LTE Handover Analysis <https://sites.google.com/a/umich.edu/robustnet-handover>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Duration: 10/28/2015 - 12/3/2015**
+
+This experiment aims to study the decision policy and performance impact of
+handovers including WiFi-Cellular handover, IRAT (Inter radio access technology)
+handover, and intra-LTE handover.
+
+**Contact**
+ | Shichang Shawn Xu (xsc@umich.edu)
+ | University of Michigan, Ann Arbor
 
 
-Internal at SUNY Buffalo
-------------------------
+3. `Maybe <https://blue.cse.buffalo.edu/projects/maybe/>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-#. `Quality of Experience <https://blue.cse.buffalo.edu/projects/qoe/>`_
-#. `Jouler <https://blue.cse.buffalo.edu/projects/jouler/>`_
-#. `Maybe <https://blue.cse.buffalo.edu/projects/maybe/>`_
-#. `PocketData <http://odin.cse.buffalo.edu/research/pocketdata/>`_
-#. `File System Analysis <https://blue.cse.buffalo.edu/projects/pocketlocker/>`_
-#. Progresso
+**Duration: 11/13/2015 - 11/24/2015**
+
+One of the reasons programming mobile systems is so hard is the uncertainty
+created by the wide variety of environments a typical app encounters at
+runtime. In many cases only post-deployment user testing can determine the
+right algorithm to use, the rate at which something should happen, or when an
+app should attempt to conserve energy. Programmers should not be forced to make
+these choices at development time. But today’s programming languages leave no
+way for programmers to express and structure their uncertainty about runtime
+conditions, forcing them to adopt ineffective, fragile, and untested ad-hoc
+approaches to runtime adaptation. We introduce a new approach based on
+structured uncertainty through a new language construct: the maybe statement.
+
+**Contact**:
+ | Yihong Chen (ychen78@buffalo.edu)
+ | University at Buffalo
+
+
+4. `File System Analysis <https://blue.cse.buffalo.edu/projects/pocketlocker/>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Duration: 11/3/2015 - 11/13/2015**
+
+Centralized cloud storage services such as Dropbox have revolutionized the way
+that users share files and access data across their growing number of devices.
+But today’s cloud storage options have serious limitations affecting mobile
+battery-powered smartphones. Many central cloud storage providers require each
+client to have enough storage for an entire replica, which may not be feasible
+on smartphones with an order-of-magnitude less storage than laptops and
+desktops. Centralized cloud storage does not scale as users add more storage and
+misses the opportunity to harness free space users already have. And
+centralized cloud storage provides poor support for mobile devices, both
+failing to leverage natural mobility patterns when distributing data and
+potentially causing costly mobile data traffic.
+
+**Contact**:
+ | Carl Nuessle (carlnues@buffalo.edu)
+ | University at Buffalo
+
+
+5. `Quality of Experience <https://blue.cse.buffalo.edu/projects/qoe/>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Duration: 11/3/2015 - 11/16/2015**
+
+Of all the resources that smartphones manage, human attention is the most
+precious. While processor speed and core count, memory and storage capacity, and
+network bandwidth have steadily and sometimes rapidly increased, the number of
+hours in the day has not. And as users spend an increasing amount of time with
+their personal computing devices, it is more important than ever that these
+devices ensure that their time is used effectively. We refer to this as quality
+of experience (QoE).
+
+**Contact**:
+ | Scott Haseley (shaseley@buffalo.edu)
+ | University at Buffalo
