@@ -12,7 +12,7 @@ Ongoing
 1. `Bluetooth Low Energy <https://kabru.eecs.umich.edu/?page_id=971>`_
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Duration: 11/3/2015 - Present**
+**Since 11/3/2015**
 
 We collect information that nearby BLE powered devices publicly broadcast. This
 enables us to study the privacy threats they pose. Please make sure you keep the
@@ -26,7 +26,7 @@ Bluetooth radio turned on for sometime during the day.
 2. `Lock Screen <https://surveys.cs.berkeley.edu/lockscreen/lockscreen.html>`_
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Duration: 10/22/2015 - Present(ongoing)**
+**Since 10/22/2015**
 
 This experiment looks at how users interact with their lock screens. We collect
 log information on whether a code-based lock is enabled, how much time is spent
@@ -40,11 +40,24 @@ patterns.
  | International Computer Science Institute (ICSI), Berkeley
 
 
+3. `LTE Handover Analysis <https://sites.google.com/a/umich.edu/robustnet-handover>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Since 10/28/2015**
+
+This experiment aims to study the decision policy and performance impact of
+handovers including WiFi-Cellular handover, IRAT (Inter radio access technology)
+handover, and intra-LTE handover.
+
+**Contact**
+ | Shichang Shawn Xu (xsc@umich.edu)
+ | University of Michigan, Ann Arbor
+
 
 4. `Runtime Permission <https://sites.google.com/site/runtimeperm/>`_
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Duration: 11/24/2015 - Present**
+**Since 11/24/2015**
 
 This is a study on privacy preferences of mobile users when it comes to
 sensitive data requests originating from third party applications.  To that end,
@@ -58,29 +71,34 @@ surrounding contextual data when such a question is prompted to the user.
  | UC Berkeley
 
 
-5. `Jouler <https://blue.cse.buffalo.edu/projects/jouler/>`_
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+5. `GridWatch: Crowdsourcing the Detection of Power Outages and Restorations <http://grid.watch/phonelab.html>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Duration: Ongoing**
+**Since 03/03/2016**
 
-Despite the fact that current smartphone platforms already incorporate energy
-measurement tools and multiple energy control mechanisms, smartphone battery
-lifetimes continue to frustrate users. This is because measurements and
-mechanisms are of limited utility without policies that utilize them to achieve
-different energy management goals, such as meeting a lifetime target or
-providing good performance to a user’s favorite apps. To address this problem we
-are developing Jouler, a policy framework enabling effective and flexible
-smartphone energy management.
+This experiment is gathering information to validate the GridWatch system.
+GridWatch is a system that attempts to crowd-source the detection of power
+outages and power restorations. These events are sensed using unmodified
+smartphones. The key insight is that when a charging phone stops charging, it
+might have experienced a power outage. When multiple phones that are nearby each
+other stop charging at the same time, it becomes more likely that an outage
+occurred. This same logic applies for power restorations, except instead of
+stopping charging, phones start charging. This experiment will gather your
+battery state (charging, not charging, percent charged) and your last known GPS
+location when battery state changes.
 
 **Contact**:
- | Anudipa Maiti (anudipam@buffalo.edu)
- | University at Buffalo
+ | Noah Klugman (nklugman@umich.edu)
+ | University of Michigan, Ann Arbor
 
 
-6. `PocketData <http://odin.cse.buffalo.edu/research/pocketdata/>`_
+
+In Development
+--------------
+
+
+1. `PocketData <http://odin.cse.buffalo.edu/research/pocketdata/>`_
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-**Duration: Ongoing**
 
 The world’s 2 billion smartphones represent the most powerful and pervasive
 distributed system ever built. Open application marketplaces, such as the Google
@@ -95,22 +113,6 @@ deployed in the wild.
 **Contact**:
  | Jerry Ajay (jerryant@buffalo.edu)
  | University at Buffalo
-
-
-In Development
---------------
-
-1. Crowdsourcing Power Outage Measurements
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-**Duration: Ongoing**
-
-This experiment collect smartphone's charging status data to infer power
-outage.
-
-**Contact**:
- | Noah Klugman (nklugman@umich.edu)
- | University of Michigan, Ann Arbor
 
 
 
@@ -132,21 +134,7 @@ without breaking the main functionalities of the apps.
  | UCSD
 
 
-2. `LTE Handover Analysis <https://sites.google.com/a/umich.edu/robustnet-handover>`_
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-**Duration: 10/28/2015 - 12/3/2015**
-
-This experiment aims to study the decision policy and performance impact of
-handovers including WiFi-Cellular handover, IRAT (Inter radio access technology)
-handover, and intra-LTE handover.
-
-**Contact**
- | Shichang Shawn Xu (xsc@umich.edu)
- | University of Michigan, Ann Arbor
-
-
-3. `Maybe <https://blue.cse.buffalo.edu/projects/maybe/>`_
+2. `Maybe <https://blue.cse.buffalo.edu/projects/maybe/>`_
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Duration: 11/13/2015 - 11/24/2015**
@@ -167,7 +155,7 @@ structured uncertainty through a new language construct: the maybe statement.
  | University at Buffalo
 
 
-4. `File System Analysis <https://blue.cse.buffalo.edu/projects/pocketlocker/>`_
+3. `File System Analysis <https://blue.cse.buffalo.edu/projects/pocketlocker/>`_
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Duration: 11/3/2015 - 11/13/2015**
@@ -189,7 +177,7 @@ potentially causing costly mobile data traffic.
  | University at Buffalo
 
 
-5. `Quality of Experience <https://blue.cse.buffalo.edu/projects/qoe/>`_
+4. `Quality of Experience <https://blue.cse.buffalo.edu/projects/qoe/>`_
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Duration: 11/3/2015 - 11/16/2015**
@@ -204,4 +192,23 @@ of experience (QoE).
 
 **Contact**:
  | Scott Haseley (shaseley@buffalo.edu)
+ | University at Buffalo
+
+
+5. `Jouler <https://blue.cse.buffalo.edu/projects/jouler/>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Duration: Ongoing**
+
+Despite the fact that current smartphone platforms already incorporate energy
+measurement tools and multiple energy control mechanisms, smartphone battery
+lifetimes continue to frustrate users. This is because measurements and
+mechanisms are of limited utility without policies that utilize them to achieve
+different energy management goals, such as meeting a lifetime target or
+providing good performance to a user’s favorite apps. To address this problem we
+are developing Jouler, a policy framework enabling effective and flexible
+smartphone energy management.
+
+**Contact**:
+ | Anudipa Maiti (anudipam@buffalo.edu)
  | University at Buffalo
