@@ -56,7 +56,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'PhoneLab'
-copyright = u'2015, PhoneLab Team'
+copyright = u'2016, PhoneLab Team'
 author = u'PhoneLab Team'
 
 # The version info for the project you're documenting, acts as replacement for
