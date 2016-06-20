@@ -19,59 +19,12 @@ enables us to study the privacy threats they pose. Please make sure you keep the
 Bluetooth radio turned on for sometime during the day.
 
 **Contact**:
- | Kassem Fawaz (kmfawaz@umich.edu)
- | University of Michigan, Ann Arbor
+ | Kassem Fawaz (Advisor: Prof. Kang G. Shin)
+ | RTCL @ University of Michigan, Ann Arbor
 
 
-2. `Lock Screen <https://surveys.cs.berkeley.edu/lockscreen/lockscreen.html>`_
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Since 10/22/2015**
-
-This experiment looks at how users interact with their lock screens. We collect
-log information on whether a code-based lock is enabled, how much time is spent
-before unlocking the device, how long users take to enter the code and how many
-failed attempts occur. This information will help researchers to design lock
-screens with better security while maintaining or improving upon existing usage
-patterns.
-
-**Contact**:
- | Marian Harbach (mharbach@icsi.berkeley.edu)
- | International Computer Science Institute (ICSI), Berkeley
-
-
-3. `LTE Handover Analysis <https://sites.google.com/a/umich.edu/robustnet-handover>`_
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-**Since 10/28/2015**
-
-This experiment aims to study the decision policy and performance impact of
-handovers including WiFi-Cellular handover, IRAT (Inter radio access technology)
-handover, and intra-LTE handover.
-
-**Contact**
- | Shichang Shawn Xu (xsc@umich.edu)
- | University of Michigan, Ann Arbor
-
-
-4. `Runtime Permission <https://sites.google.com/site/runtimeperm/>`_
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-**Since 11/24/2015**
-
-This is a study on privacy preferences of mobile users when it comes to
-sensitive data requests originating from third party applications.  To that end,
-we want to track sensitive data requests and ask users whether they want to
-block such requests as it happens. However we hope to prompt the question at
-most once per day per user when such a request occurs. We are also hoping to log
-surrounding contextual data when such a question is prompted to the user.
-
-**Contact**:
- | Primal Wijesekera (primal@berkeley.edu)
- | UC Berkeley
-
-
-5. `GridWatch: Crowdsourcing the Detection of Power Outages and Restorations <http://grid.watch/phonelab.html>`_
+2. `GridWatch: Crowdsourcing the Detection of Power Outages and Restorations <http://grid.watch/phonelab.html>`_
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Since 03/03/2016**
@@ -88,32 +41,25 @@ battery state (charging, not charging, percent charged) and your last known GPS
 location when battery state changes.
 
 **Contact**:
- | Noah Klugman (nklugman@umich.edu)
+ | Noah Klugman (Advisor: Prabal Dutta)
  | University of Michigan, Ann Arbor
 
 
 
-In Development
---------------
-
-
-1. `PocketData <http://odin.cse.buffalo.edu/research/pocketdata/>`_
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-The world’s 2 billion smartphones represent the most powerful and pervasive
-distributed system ever built. Open application marketplaces, such as the Google
-Play Store, have resulted in a vibrant software ecosystem comprising millions of
-smartphone and tablet apps in hundreds of different categories that both meet
-existing user needs and provide exciting novel capabilities. As mobile apps and
-devices become even more central to the personal computing experience, it is
-increasingly important to understand and improve their performance. In
-partnership with UB's PhoneLab, we are analyzing SQLite logs from smartphones
-deployed in the wild.
+3. Mobile Storage Usage
+~~~~~~~~~~~~~~~~~~~~~~~
 
 **Contact**:
- | Jerry Ajay (jerryant@buffalo.edu)
- | University at Buffalo
+ | Ashish Bijlani (Advisor: Prof. Roy H. Campbell)
+ | UIUC
 
+
+4. CPU Profiling
+~~~~~~~~~~~~~~~~
+
+**Contact**:
+ | Guru Prasad Srinivasa and Scott Haseley (Advisor: Geoffrey Challen)
+ | University at Buffalo
 
 
 Completed
@@ -130,11 +76,60 @@ design DefDroid so that it makes your mobile phone more sustainable
 without breaking the main functionalities of the apps.
 
 **Contact**:
- | Ryan (Peng) Huang (ryanhuang@cs.ucsd.edu)
+ | Ryan (Peng) Huang (Advisor: Prof. Yuanyuan Zhou)
  | UCSD
 
 
-2. `Maybe <https://blue.cse.buffalo.edu/projects/maybe/>`_
+2. `Lock Screen <https://surveys.cs.berkeley.edu/lockscreen/lockscreen.html>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Duration: 10/22/2015 - 6/3/2016**
+
+This experiment looks at how users interact with their lock screens. We collect
+log information on whether a code-based lock is enabled, how much time is spent
+before unlocking the device, how long users take to enter the code and how many
+failed attempts occur. This information will help researchers to design lock
+screens with better security while maintaining or improving upon existing usage
+patterns.
+
+**Contact**:
+ | Marian Harbach (Advisor: Serge Egelman)
+ | ICSI @ UC Berkeley
+
+
+3. `LTE Handover Analysis <https://sites.google.com/a/umich.edu/robustnet-handover>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Duration: 10/28/2015 - 6/3/2016**
+
+This experiment aims to study the decision policy and performance impact of
+handovers including WiFi-Cellular handover, IRAT (Inter radio access technology)
+handover, and intra-LTE handover.
+
+**Contact**
+ | Shichang Shawn Xu (Advisor: Prof. Z. Morley Mao)
+ | University of Michigan, Ann Arbor
+
+
+4. `Runtime Permission <https://sites.google.com/site/runtimeperm/>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Duration: 11/24/2015 - 3/16/2016**
+
+This is a study on privacy preferences of mobile users when it comes to
+sensitive data requests originating from third party applications.  To that end,
+we want to track sensitive data requests and ask users whether they want to
+block such requests as it happens. However we hope to prompt the question at
+most once per day per user when such a request occurs. We are also hoping to log
+surrounding contextual data when such a question is prompted to the user.
+
+**Contact**:
+ | Primal Wijesekera (Advisor: Prof. Konstanin Beznosov)
+ | UC Berkeley & University of British Columbia
+
+
+
+5. `Maybe <https://blue.cse.buffalo.edu/projects/maybe/>`_
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Duration: 11/13/2015 - 11/24/2015**
@@ -151,11 +146,11 @@ approaches to runtime adaptation. We introduce a new approach based on
 structured uncertainty through a new language construct: the maybe statement.
 
 **Contact**:
- | Yihong Chen (ychen78@buffalo.edu)
+ | Yihong Chen (Advisor: Geoffrey Challen)
  | University at Buffalo
 
 
-3. `File System Analysis <https://blue.cse.buffalo.edu/projects/pocketlocker/>`_
+6. `File System Analysis <https://blue.cse.buffalo.edu/projects/pocketlocker/>`_
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Duration: 11/3/2015 - 11/13/2015**
@@ -173,11 +168,11 @@ failing to leverage natural mobility patterns when distributing data and
 potentially causing costly mobile data traffic.
 
 **Contact**:
- | Carl Nuessle (carlnues@buffalo.edu)
+ | Carl Nuessle (Advisor: Geoffrey Challen)
  | University at Buffalo
 
 
-4. `Quality of Experience <https://blue.cse.buffalo.edu/projects/qoe/>`_
+7. `Quality of Experience <https://blue.cse.buffalo.edu/projects/qoe/>`_
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Duration: 11/3/2015 - 11/16/2015**
@@ -191,11 +186,11 @@ devices ensure that their time is used effectively. We refer to this as quality
 of experience (QoE).
 
 **Contact**:
- | Scott Haseley (shaseley@buffalo.edu)
+ | Scott Haseley (Advisor: Geoffrey Challen)
  | University at Buffalo
 
 
-5. `Jouler <https://blue.cse.buffalo.edu/projects/jouler/>`_
+8. `Jouler <https://blue.cse.buffalo.edu/projects/jouler/>`_
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Duration: Ongoing**
@@ -210,5 +205,5 @@ are developing Jouler, a policy framework enabling effective and flexible
 smartphone energy management.
 
 **Contact**:
- | Anudipa Maiti (anudipam@buffalo.edu)
+ | Anudipa Maiti (Advisor: Geoffrey Challen)
  | University at Buffalo
