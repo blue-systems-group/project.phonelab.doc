@@ -12,7 +12,7 @@ Ongoing
 1. `Bluetooth Low Energy <https://kabru.eecs.umich.edu/?page_id=971>`_
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Since 11/3/2015**
+**1/3/2015 - Present**
 
 We collect information that nearby BLE powered devices publicly broadcast. This
 enables us to study the privacy threats they pose. Please make sure you keep the
@@ -27,7 +27,7 @@ Bluetooth radio turned on for sometime during the day.
 2. `GridWatch: Crowdsourcing the Detection of Power Outages and Restorations <http://grid.watch/phonelab.html>`_
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Since 03/03/2016**
+**3/3/2016 - Present**
 
 This experiment is gathering information to validate the GridWatch system.
 GridWatch is a system that attempts to crowd-source the detection of power
@@ -46,16 +46,23 @@ location when battery state changes.
 
 
 
-3. Mobile Storage Usage
-~~~~~~~~~~~~~~~~~~~~~~~
+3. `Smartphone Storage Analysis <https://sites.google.com/site/uiucstoragestudy/>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**6/13/2016 - Present**
+
+The purpose of this study is to determine the amount of storage space consumed
+by modern mobile apps on smartphones and effect of app usage on storage. The
+results will help developing the new generation of storage for smartphones and
+identifying minimum amount of storage space today's smartphones must have.
 
 **Contact**:
  | Ashish Bijlani (Advisor: Prof. Roy H. Campbell)
  | UIUC
 
 
-4. CPU Profiling
-~~~~~~~~~~~~~~~~
+4. CPU Thermal Management
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Contact**:
  | Guru Prasad Srinivasa and Scott Haseley (Advisor: Geoffrey Challen)
@@ -68,7 +75,7 @@ Completed
 1. `DefDroid <http://defdroid.github.io/>`_
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Duration: 9/21/2015 - 11/3/2015**
+**9/21/2015 - 11/3/2015**
 
 The goal of DefDroid is to make the mobile OS more defensive to curb the naughty
 apps that drain your battery or over-consume your mobile data, storage, etc. We
@@ -83,7 +90,7 @@ without breaking the main functionalities of the apps.
 2. `Lock Screen <https://surveys.cs.berkeley.edu/lockscreen/lockscreen.html>`_
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Duration: 10/22/2015 - 6/3/2016**
+**10/22/2015 - 6/3/2016**
 
 This experiment looks at how users interact with their lock screens. We collect
 log information on whether a code-based lock is enabled, how much time is spent
@@ -100,7 +107,7 @@ patterns.
 3. `LTE Handover Analysis <https://sites.google.com/a/umich.edu/robustnet-handover>`_
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Duration: 10/28/2015 - 6/3/2016**
+**10/28/2015 - 6/3/2016**
 
 This experiment aims to study the decision policy and performance impact of
 handovers including WiFi-Cellular handover, IRAT (Inter radio access technology)
@@ -114,7 +121,7 @@ handover, and intra-LTE handover.
 4. `Runtime Permission <https://sites.google.com/site/runtimeperm/>`_
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Duration: 11/24/2015 - 3/16/2016**
+**11/24/2015 - 3/16/2016**
 
 This is a study on privacy preferences of mobile users when it comes to
 sensitive data requests originating from third party applications.  To that end,
@@ -132,7 +139,7 @@ surrounding contextual data when such a question is prompted to the user.
 5. `Maybe <https://blue.cse.buffalo.edu/projects/maybe/>`_
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Duration: 11/13/2015 - 11/24/2015**
+**11/13/2015 - 11/24/2015**
 
 One of the reasons programming mobile systems is so hard is the uncertainty
 created by the wide variety of environments a typical app encounters at
@@ -153,7 +160,7 @@ structured uncertainty through a new language construct: the maybe statement.
 6. `File System Analysis <https://blue.cse.buffalo.edu/projects/pocketlocker/>`_
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Duration: 11/3/2015 - 11/13/2015**
+**11/3/2015 - 11/13/2015**
 
 Centralized cloud storage services such as Dropbox have revolutionized the way
 that users share files and access data across their growing number of devices.
@@ -175,7 +182,7 @@ potentially causing costly mobile data traffic.
 7. `Quality of Experience <https://blue.cse.buffalo.edu/projects/qoe/>`_
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Duration: 11/3/2015 - 11/16/2015**
+**11/3/2015 - 11/16/2015**
 
 Of all the resources that smartphones manage, human attention is the most
 precious. While processor speed and core count, memory and storage capacity, and
@@ -193,7 +200,7 @@ of experience (QoE).
 8. `Jouler <https://blue.cse.buffalo.edu/projects/jouler/>`_
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Duration: Ongoing**
+**3/7/2016 - 3/16/2016**
 
 Despite the fact that current smartphone platforms already incorporate energy
 measurement tools and multiple energy control mechanisms, smartphone battery
