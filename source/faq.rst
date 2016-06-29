@@ -26,6 +26,28 @@ only used to determine whether we should release the data collected from that
 particular participant's device to you (experimenter).
 
 
+
+Do I need to log a event if it's already logged in other branch?
+----------------------------------------------------------------
+
+It depends. If the event is logged in one of the
+``logging/android-5.1.1_r3/...`` branches, then NO NEED to log it again, since
+these branches will almost always be included in the release branch. In fact, we
+strongly advise you NOT to repeat the effort, as it will potentially cause merge
+conflicts.
+
+However, if the event is logged in another experiment branch (e.g.,
+``experiment/android-5.1.1_r3/...``), then we suggest you log the information
+again in your branch, since the other experiment may end earlier than yours.
+
+
+Shall I merge other logging or experiment branches into my branch?
+------------------------------------------------------------------
+
+**You should never do this**. The only branch you need to keep up to date is the
+PhoneLab develop branch (``phonelab/android-5.1.1_r3/develop``). 
+
+
                                                              
 
 
