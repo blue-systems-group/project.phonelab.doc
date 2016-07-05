@@ -101,7 +101,7 @@ timestamped information about interactions with the phone and the context
 (hashed application name).
 
 **Contact**:
- | Ahmed M Fawaz
+ | Ahmed M Fawaz (Advisor: Prof. William H. Sanders)
  | UIUC
 
 
