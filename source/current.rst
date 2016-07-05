@@ -75,6 +75,36 @@ battery life.
  | University at Buffalo
 
 
+5. `QoEye <https://blue.cse.buffalo.edu/projects/qoe/>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**07/04/2016 - Present**
+
+QoEye collects high-level interactions with app components to help study Quality
+of Experience (QoE). Our goal is to discover common app usage patterns and to
+use this data to replay these interactions, eventually determining the
+contributing factors of QoE for various apps.
+
+**Contact**:
+ | Scott Haseley (Advisor: Geoffrey Challen)
+ | University at Buffalo
+
+
+6. TicToc
+~~~~~~~~~
+
+**07/04/2016 - Present**
+
+We want to study the hypothesis that users have unique low-level repetitive
+“obsessive” behavior that uniquely identify them. The plan is to collect
+timestamped information about interactions with the phone and the context
+(hashed application name).
+
+**Contact**:
+ | Ahmed M Fawaz
+ | UIUC
+
+
 Completed
 ---------
 
