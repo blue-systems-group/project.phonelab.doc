@@ -90,15 +90,15 @@ contributing factors of QoE for various apps.
  | University at Buffalo
 
 
-6. TicToc
-~~~~~~~~~
+6. `TicToc: User Authentication through UI profiling <https://www.perform.illinois.edu/exp/tictoc/>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **07/04/2016 - Present**
 
-We want to study the hypothesis that users have unique low-level repetitive
-“obsessive” behavior that uniquely identify them. The plan is to collect
-timestamped information about interactions with the phone and the context
-(hashed application name).
+This study will record low-level interaction with the phone to study
+identifiable user-machine interaction abnormalities that are unique to each
+user. We hypothesize that this profiling low-level interaction will be useful in
+detecting impersonation attacks.
 
 **Contact**:
  | Ahmed M Fawaz (Advisor: Prof. William H. Sanders)
