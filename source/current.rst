@@ -105,6 +105,21 @@ timestamped information about interactions with the phone and the context
  | UIUC
 
 
+7. M2Auth
+~~~~~~~~~
+
+**07/06/2016 - Present**
+
+This experiment aims to explore the behavioral biometrics-the way that user
+interact with the smartphone, such as how user touching the screen instead of
+what user touch. This data will help us to design a Multi-Modal Authentication
+framework that incorporate different modalities of these biometrics.
+
+**Contact**:
+ | Ahmed Mahfouz
+ | University of British Columbia
+
+
 Completed
 ---------
 
