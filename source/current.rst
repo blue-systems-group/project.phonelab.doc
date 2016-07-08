@@ -105,8 +105,8 @@ detecting impersonation attacks.
  | UIUC
 
 
-7. M2Auth
-~~~~~~~~~
+7. `M2Auth <https://sites.google.com/site/m2auth/>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **07/06/2016 - Present**
 
@@ -116,8 +116,8 @@ what user touch. This data will help us to design a Multi-Modal Authentication
 framework that incorporate different modalities of these biometrics.
 
 **Contact**:
- | Ahmed Mahfouz
- | University of British Columbia
+ | Ahmed Mahfouz (Advisor: Prof. Tarek Mahmoud)
+ | Minia University, Egypt
 
 
 Completed
