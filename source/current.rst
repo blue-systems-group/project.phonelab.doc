@@ -64,6 +64,8 @@ identifying minimum amount of storage space today's smartphones must have.
 4. CPU Thermal Management
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
+**03/31/2016 - Present**
+
 This experiment aims to study the thermal characteristics of smartphones. We
 monitor the temperature of your smartphones and attempt to detect bad choices
 made by Android that make the phones run hot. Our goal is to use this
