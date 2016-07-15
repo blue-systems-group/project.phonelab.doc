@@ -12,7 +12,7 @@ Ongoing
 1. `Bluetooth Low Energy <https://kabru.eecs.umich.edu/?page_id=971>`_
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**1/3/2015 - Present**
+**11/03/2015 - Present**
 
 We collect information that nearby BLE powered devices publicly broadcast. This
 enables us to study the privacy threats they pose. Please make sure you keep the
@@ -27,7 +27,7 @@ Bluetooth radio turned on for sometime during the day.
 2. `GridWatch: Crowdsourcing the Detection of Power Outages and Restorations <http://grid.watch/phonelab.html>`_
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**3/3/2016 - Present**
+**03/03/2016 - Present**
 
 This experiment is gathering information to validate the GridWatch system.
 GridWatch is a system that attempts to crowd-source the detection of power
@@ -49,7 +49,7 @@ location when battery state changes.
 3. `Smartphone Storage Analysis <https://sites.google.com/site/uiucstoragestudy/>`_
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**6/13/2016 - Present**
+**06/13/2016 - Present**
 
 The purpose of this study is to determine the amount of storage space consumed
 by modern mobile apps on smartphones and effect of app usage on storage. The
