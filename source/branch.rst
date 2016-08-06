@@ -25,10 +25,9 @@ PhoneLab Develop Branch
 When there is a major release of Android, we usually wait some time for it to be
 become mature enough. Then we choose a fairly stable release for our device
 (Nexus 5) and create our develop branch from there. The branch name is
-``phonelab/android-$tag/develop``, where ``$tag`` is the AOSP release tag.  For
-instance, we used the release ``4.4.4_r1`` for KitKat, and used ``5.1.1_r3`` for
-Lollipop. To give you some context, a full list of source code tags and builds
-can be found `here <https://source.android.com/source/build-numbers.html>`_.
+``phonelab/$tag/develop``, where ``$tag`` is the AOSP release tag.  For
+instance, we used the release ``android-4.4.4_r1`` for KitKat, ``android-5.1.1_r3`` for
+Lollipop, and ``cm-13.0`` for Mashmallow.
 
 Our develop branch usually only contains device specific changes to make the
 platform fully functional, including GPS, cellular---parts there are usually
@@ -41,10 +40,10 @@ Experiment Branches
 
 To support parallel development of multiple experiments, we create a branch for
 each experiment on top of our PhoneLab develop branch. The experiment branch
-name is in the format of ``experiment/android-$tag/$id/$name``:
+name is in the format of ``experiment/$tag/$id/$name``:
 
  1. ``$tag`` is the base AOSP release tag that our PhoneLab develop branch is
-    based on, for instance, ``5.1.1_r3``.
+    based on, for instance, ``android-5.1.1_r3`` or ``cm-13.0``.
 
  2. ``$id`` is an integer that uniquely identifies your experiment.
 
@@ -74,19 +73,19 @@ First, fetch the latest PhoneLab develop branch.
 
 .. code-block:: bash
 
-    $ repo forall -j 8 -pvec git fetch aosp phonelab/android-5.1.1_r3/develop:phonelab/android-5.1.1_r3/develop
+    $ repo forall -j 8 -pvec git fetch aosp phonelab/$tag/develop:phonelab/$tag/develop
 
 Second, make sure your are in your experiment branch.
 
 .. code-block:: bash
 
-    $ repo forall -j 8 -pvec git checkout experiment/android-5.1.1_r3/<id>/<name>
+    $ repo forall -j 8 -pvec git checkout experiment/$tag/<id>/<name>
 
 Finally, merge PhoneLab develop branch into your experiment branch.
 
 .. code-block:: bash
 
-    $ repo forall -j 8 -pvec git merge phonelab/android-5.1.1_r3/develop
+    $ repo forall -j 8 -pvec git merge phonelab/$tag/develop
 
 You may need repeat the last step a couple of times to fix possible conflicts.
 
