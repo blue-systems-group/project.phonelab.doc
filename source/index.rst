@@ -6,6 +6,12 @@
 PhoneLab Development Documentation
 ==================================
 
+What's New
+----------
+
+- [2016-09-14] PhoneLab has migrated to Nexus 6 devices. We are ready to accept
+  experiment requests.
+
 .. toctree::
    :maxdepth: 2
 
