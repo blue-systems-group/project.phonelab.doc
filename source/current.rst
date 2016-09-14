@@ -161,7 +161,7 @@ smartphone energy management.
 9. `Bluetooth Low Energy <https://kabru.eecs.umich.edu/?page_id=971>`_
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**11/03/2015 - 8/31/2016
+**11/03/2015 - 8/31/2016**
 
 We collect information that nearby BLE powered devices publicly broadcast. This
 enables us to study the privacy threats they pose. Please make sure you keep the
@@ -176,7 +176,7 @@ Bluetooth radio turned on for sometime during the day.
 10. `GridWatch: Crowdsourcing the Detection of Power Outages and Restorations <http://grid.watch/phonelab.html>`_
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**03/03/2016 - 8/31/2016
+**03/03/2016 - 8/31/2016**
 
 This experiment is gathering information to validate the GridWatch system.
 GridWatch is a system that attempts to crowd-source the detection of power
@@ -198,7 +198,7 @@ location when battery state changes.
 11. `Smartphone Storage Analysis <https://sites.google.com/site/uiucstoragestudy/>`_
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**06/13/2016 - 8/31/2016
+**06/13/2016 - 8/31/2016**
 
 The purpose of this study is to determine the amount of storage space consumed
 by modern mobile apps on smartphones and effect of app usage on storage. The
@@ -213,7 +213,7 @@ identifying minimum amount of storage space today's smartphones must have.
 12. CPU Thermal Management
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**03/31/2016 - 8/31/2016
+**03/31/2016 - 8/31/2016**
 
 This experiment aims to study the thermal characteristics of smartphones. We
 monitor the temperature of your smartphones and attempt to detect bad choices
@@ -229,7 +229,7 @@ battery life.
 13. `QoEye <https://blue.cse.buffalo.edu/projects/qoe/>`_
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**07/04/2016 - 8/31/2016
+**07/04/2016 - 8/31/2016**
 
 QoEye collects high-level interactions with app components to help study Quality
 of Experience (QoE). Our goal is to discover common app usage patterns and to
@@ -244,7 +244,7 @@ contributing factors of QoE for various apps.
 14. `TicToc: User Authentication through UI profiling <https://www.perform.illinois.edu/exp/tictoc/>`_
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**07/04/2016 - 8/31/2016
+**07/04/2016 - 8/31/2016**
 
 This study will record low-level interaction with the phone to study
 identifiable user-machine interaction abnormalities that are unique to each
@@ -259,7 +259,7 @@ detecting impersonation attacks.
 15. `M2Auth <https://sites.google.com/site/m2auth/>`_
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**07/06/2016 - 8/31/2016
+**07/06/2016 - 8/31/2016**
 
 This experiment aims to explore the behavioral biometrics-the way that user
 interact with the smartphone, such as how user touching the screen instead of
