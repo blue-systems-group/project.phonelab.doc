@@ -9,117 +9,6 @@ the following smartphone platform experiments.
 Ongoing
 --------
 
-1. `Bluetooth Low Energy <https://kabru.eecs.umich.edu/?page_id=971>`_
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-**11/03/2015 - Present**
-
-We collect information that nearby BLE powered devices publicly broadcast. This
-enables us to study the privacy threats they pose. Please make sure you keep the
-Bluetooth radio turned on for sometime during the day.
-
-**Contact**:
- | Kassem Fawaz (Advisor: Prof. Kang G. Shin)
- | RTCL @ University of Michigan, Ann Arbor
-
-
-
-2. `GridWatch: Crowdsourcing the Detection of Power Outages and Restorations <http://grid.watch/phonelab.html>`_
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-**03/03/2016 - Present**
-
-This experiment is gathering information to validate the GridWatch system.
-GridWatch is a system that attempts to crowd-source the detection of power
-outages and power restorations. These events are sensed using unmodified
-smartphones. The key insight is that when a charging phone stops charging, it
-might have experienced a power outage. When multiple phones that are nearby each
-other stop charging at the same time, it becomes more likely that an outage
-occurred. This same logic applies for power restorations, except instead of
-stopping charging, phones start charging. This experiment will gather your
-battery state (charging, not charging, percent charged) and your last known GPS
-location when battery state changes.
-
-**Contact**:
- | Noah Klugman (Advisor: Prabal Dutta)
- | University of Michigan, Ann Arbor
-
-
-
-3. `Smartphone Storage Analysis <https://sites.google.com/site/uiucstoragestudy/>`_
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-**06/13/2016 - Present**
-
-The purpose of this study is to determine the amount of storage space consumed
-by modern mobile apps on smartphones and effect of app usage on storage. The
-results will help developing the new generation of storage for smartphones and
-identifying minimum amount of storage space today's smartphones must have.
-
-**Contact**:
- | Ashish Bijlani (Advisor: Prof. Roy H. Campbell)
- | UIUC
-
-
-4. CPU Thermal Management
-~~~~~~~~~~~~~~~~~~~~~~~~~
-
-**03/31/2016 - Present**
-
-This experiment aims to study the thermal characteristics of smartphones. We
-monitor the temperature of your smartphones and attempt to detect bad choices
-made by Android that make the phones run hot. Our goal is to use this
-information to prevent phones from (unnecessarily) overheating and also improve
-battery life.
-
-**Contact**:
- | Guru Prasad Srinivasa and Scott Haseley (Advisor: Geoffrey Challen)
- | University at Buffalo
-
-
-5. `QoEye <https://blue.cse.buffalo.edu/projects/qoe/>`_
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-**07/04/2016 - Present**
-
-QoEye collects high-level interactions with app components to help study Quality
-of Experience (QoE). Our goal is to discover common app usage patterns and to
-use this data to replay these interactions, eventually determining the
-contributing factors of QoE for various apps.
-
-**Contact**:
- | Scott Haseley (Advisor: Geoffrey Challen)
- | University at Buffalo
-
-
-6. `TicToc: User Authentication through UI profiling <https://www.perform.illinois.edu/exp/tictoc/>`_
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-**07/04/2016 - Present**
-
-This study will record low-level interaction with the phone to study
-identifiable user-machine interaction abnormalities that are unique to each
-user. We hypothesize that this profiling low-level interaction will be useful in
-detecting impersonation attacks.
-
-**Contact**:
- | Ahmed M Fawaz (Advisor: Prof. William H. Sanders)
- | UIUC
-
-
-7. `M2Auth <https://sites.google.com/site/m2auth/>`_
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-**07/06/2016 - Present**
-
-This experiment aims to explore the behavioral biometrics-the way that user
-interact with the smartphone, such as how user touching the screen instead of
-what user touch. This data will help us to design a Multi-Modal Authentication
-framework that incorporate different modalities of these biometrics.
-
-**Contact**:
- | Ahmed Mahfouz (Advisor: Prof. Tarek Mahmoud)
- | Minia University, Egypt
 
 
 Completed
@@ -267,3 +156,117 @@ smartphone energy management.
 **Contact**:
  | Anudipa Maiti (Advisor: Geoffrey Challen)
  | University at Buffalo
+
+
+9. `Bluetooth Low Energy <https://kabru.eecs.umich.edu/?page_id=971>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**11/03/2015 - 8/31/2016
+
+We collect information that nearby BLE powered devices publicly broadcast. This
+enables us to study the privacy threats they pose. Please make sure you keep the
+Bluetooth radio turned on for sometime during the day.
+
+**Contact**:
+ | Kassem Fawaz (Advisor: Prof. Kang G. Shin)
+ | RTCL @ University of Michigan, Ann Arbor
+
+
+
+10. `GridWatch: Crowdsourcing the Detection of Power Outages and Restorations <http://grid.watch/phonelab.html>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**03/03/2016 - 8/31/2016
+
+This experiment is gathering information to validate the GridWatch system.
+GridWatch is a system that attempts to crowd-source the detection of power
+outages and power restorations. These events are sensed using unmodified
+smartphones. The key insight is that when a charging phone stops charging, it
+might have experienced a power outage. When multiple phones that are nearby each
+other stop charging at the same time, it becomes more likely that an outage
+occurred. This same logic applies for power restorations, except instead of
+stopping charging, phones start charging. This experiment will gather your
+battery state (charging, not charging, percent charged) and your last known GPS
+location when battery state changes.
+
+**Contact**:
+ | Noah Klugman (Advisor: Prabal Dutta)
+ | University of Michigan, Ann Arbor
+
+
+
+11. `Smartphone Storage Analysis <https://sites.google.com/site/uiucstoragestudy/>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**06/13/2016 - 8/31/2016
+
+The purpose of this study is to determine the amount of storage space consumed
+by modern mobile apps on smartphones and effect of app usage on storage. The
+results will help developing the new generation of storage for smartphones and
+identifying minimum amount of storage space today's smartphones must have.
+
+**Contact**:
+ | Ashish Bijlani (Advisor: Prof. Roy H. Campbell)
+ | UIUC
+
+
+12. CPU Thermal Management
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**03/31/2016 - 8/31/2016
+
+This experiment aims to study the thermal characteristics of smartphones. We
+monitor the temperature of your smartphones and attempt to detect bad choices
+made by Android that make the phones run hot. Our goal is to use this
+information to prevent phones from (unnecessarily) overheating and also improve
+battery life.
+
+**Contact**:
+ | Guru Prasad Srinivasa and Scott Haseley (Advisor: Geoffrey Challen)
+ | University at Buffalo
+
+
+13. `QoEye <https://blue.cse.buffalo.edu/projects/qoe/>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**07/04/2016 - 8/31/2016
+
+QoEye collects high-level interactions with app components to help study Quality
+of Experience (QoE). Our goal is to discover common app usage patterns and to
+use this data to replay these interactions, eventually determining the
+contributing factors of QoE for various apps.
+
+**Contact**:
+ | Scott Haseley (Advisor: Geoffrey Challen)
+ | University at Buffalo
+
+
+14. `TicToc: User Authentication through UI profiling <https://www.perform.illinois.edu/exp/tictoc/>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**07/04/2016 - 8/31/2016
+
+This study will record low-level interaction with the phone to study
+identifiable user-machine interaction abnormalities that are unique to each
+user. We hypothesize that this profiling low-level interaction will be useful in
+detecting impersonation attacks.
+
+**Contact**:
+ | Ahmed M Fawaz (Advisor: Prof. William H. Sanders)
+ | UIUC
+
+
+15. `M2Auth <https://sites.google.com/site/m2auth/>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**07/06/2016 - 8/31/2016
+
+This experiment aims to explore the behavioral biometrics-the way that user
+interact with the smartphone, such as how user touching the screen instead of
+what user touch. This data will help us to design a Multi-Modal Authentication
+framework that incorporate different modalities of these biometrics.
+
+**Contact**:
+ | Ahmed Mahfouz (Advisor: Prof. Tarek Mahmoud)
+ | Minia University, Egypt
+
