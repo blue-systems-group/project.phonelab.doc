@@ -21,7 +21,7 @@ Tag: ``Activity-LifeCycle-QoE``
 
 #. | **Action**: ``onStart, onPause, onResume``
    | **Project**: `frameworks/base <http://platform.phone-lab.org:8080/gitweb?p=cm-shamu/frameworks/base.git>`_
-   | **File**: `core/java/android/app/Activity.java:2 <http://platform.phone-lab.org:8080/gitweb?p=cm-shamu/frameworks/base.git;a=blob;f=core/java/android/app/Activity.java;hb=refs/heads/phonelab/cm-13.0/release-4.2.5#l2>`_
+   | **File**: `core/java/android/app/Activity.java:1146 <http://platform.phone-lab.org:8080/gitweb?p=cm-shamu/frameworks/base.git;a=blob;f=core/java/android/app/Activity.java;hb=refs/heads/phonelab/cm-13.0/release-4.2.5#l1146>`_
    | **Description**: Activity lifecycle events
 
 
@@ -35,7 +35,7 @@ Tag: ``Location-Misc-PhoneLab``
 
 #. | **Action**: ``android.location.LOCATION_CHANGED``
    | **Project**: `frameworks/base <http://platform.phone-lab.org:8080/gitweb?p=cm-shamu/frameworks/base.git>`_
-   | **File**: `services/core/java/com/android/server/LocationManagerService.java:2 <http://platform.phone-lab.org:8080/gitweb?p=cm-shamu/frameworks/base.git;a=blob;f=services/core/java/com/android/server/LocationManagerService.java;hb=refs/heads/phonelab/cm-13.0/release-4.2.5#l2>`_
+   | **File**: `services/core/java/com/android/server/LocationManagerService.java:2252 <http://platform.phone-lab.org:8080/gitweb?p=cm-shamu/frameworks/base.git;a=blob;f=services/core/java/com/android/server/LocationManagerService.java;hb=refs/heads/phonelab/cm-13.0/release-4.2.5#l2252>`_
    | **Description**: Location update.
 
 
@@ -49,47 +49,47 @@ Tag: ``Network-Telephony-PhoneLab``
 
 #. | **Action**: ``android.intent.action.ANY_DATA_STATE``
    | **Project**: `frameworks/base <http://platform.phone-lab.org:8080/gitweb?p=cm-shamu/frameworks/base.git>`_
-   | **File**: `services/core/java/com/android/server/TelephonyRegistry.java:2 <http://platform.phone-lab.org:8080/gitweb?p=cm-shamu/frameworks/base.git;a=blob;f=services/core/java/com/android/server/TelephonyRegistry.java;hb=refs/heads/phonelab/cm-13.0/release-4.2.5#l2>`_
+   | **File**: `services/core/java/com/android/server/TelephonyRegistry.java:1592 <http://platform.phone-lab.org:8080/gitweb?p=cm-shamu/frameworks/base.git;a=blob;f=services/core/java/com/android/server/TelephonyRegistry.java;hb=refs/heads/phonelab/cm-13.0/release-4.2.5#l1592>`_
    | **Description**: Cellular data connectivity changed.
 
 #. | **Action**: ``android.intent.action.DATA_CONNECTION_FAILED``
    | **Project**: `frameworks/base <http://platform.phone-lab.org:8080/gitweb?p=cm-shamu/frameworks/base.git>`_
-   | **File**: `services/core/java/com/android/server/TelephonyRegistry.java:2 <http://platform.phone-lab.org:8080/gitweb?p=cm-shamu/frameworks/base.git;a=blob;f=services/core/java/com/android/server/TelephonyRegistry.java;hb=refs/heads/phonelab/cm-13.0/release-4.2.5#l2>`_
+   | **File**: `services/core/java/com/android/server/TelephonyRegistry.java:1649 <http://platform.phone-lab.org:8080/gitweb?p=cm-shamu/frameworks/base.git;a=blob;f=services/core/java/com/android/server/TelephonyRegistry.java;hb=refs/heads/phonelab/cm-13.0/release-4.2.5#l1649>`_
    | **Description**: Cellular data connection failed.
 
 #. | **Action**: ``android.intent.action.PHONE_STATE``
    | **Project**: `frameworks/base <http://platform.phone-lab.org:8080/gitweb?p=cm-shamu/frameworks/base.git>`_
-   | **File**: `services/core/java/com/android/server/TelephonyRegistry.java:2 <http://platform.phone-lab.org:8080/gitweb?p=cm-shamu/frameworks/base.git;a=blob;f=services/core/java/com/android/server/TelephonyRegistry.java;hb=refs/heads/phonelab/cm-13.0/release-4.2.5#l2>`_
+   | **File**: `services/core/java/com/android/server/TelephonyRegistry.java:1547 <http://platform.phone-lab.org:8080/gitweb?p=cm-shamu/frameworks/base.git;a=blob;f=services/core/java/com/android/server/TelephonyRegistry.java;hb=refs/heads/phonelab/cm-13.0/release-4.2.5#l1547>`_
    | **Description**: Phone calling state changed (incoming call).
 
 #. | **Action**: ``android.intent.action.SERVICE_STATE``
    | **Project**: `frameworks/base <http://platform.phone-lab.org:8080/gitweb?p=cm-shamu/frameworks/base.git>`_
-   | **File**: `services/core/java/com/android/server/TelephonyRegistry.java:2 <http://platform.phone-lab.org:8080/gitweb?p=cm-shamu/frameworks/base.git;a=blob;f=services/core/java/com/android/server/TelephonyRegistry.java;hb=refs/heads/phonelab/cm-13.0/release-4.2.5#l2>`_
+   | **File**: `services/core/java/com/android/server/TelephonyRegistry.java:1466 <http://platform.phone-lab.org:8080/gitweb?p=cm-shamu/frameworks/base.git;a=blob;f=services/core/java/com/android/server/TelephonyRegistry.java;hb=refs/heads/phonelab/cm-13.0/release-4.2.5#l1466>`_
    | **Description**: Cellular service state changed.
 
 #. | **Action**: ``android.intent.action.SIG_STR``
    | **Project**: `frameworks/base <http://platform.phone-lab.org:8080/gitweb?p=cm-shamu/frameworks/base.git>`_
-   | **File**: `services/core/java/com/android/server/TelephonyRegistry.java:2 <http://platform.phone-lab.org:8080/gitweb?p=cm-shamu/frameworks/base.git;a=blob;f=services/core/java/com/android/server/TelephonyRegistry.java;hb=refs/heads/phonelab/cm-13.0/release-4.2.5#l2>`_
+   | **File**: `services/core/java/com/android/server/TelephonyRegistry.java:1501 <http://platform.phone-lab.org:8080/gitweb?p=cm-shamu/frameworks/base.git;a=blob;f=services/core/java/com/android/server/TelephonyRegistry.java;hb=refs/heads/phonelab/cm-13.0/release-4.2.5#l1501>`_
    | **Description**: Cellular signal strength changed.
 
 #. | **Action**: ``android.telephony.CALL_FORWARDING_CHANGED``
    | **Project**: `frameworks/base <http://platform.phone-lab.org:8080/gitweb?p=cm-shamu/frameworks/base.git>`_
-   | **File**: `services/core/java/com/android/server/TelephonyRegistry.java:2 <http://platform.phone-lab.org:8080/gitweb?p=cm-shamu/frameworks/base.git;a=blob;f=services/core/java/com/android/server/TelephonyRegistry.java;hb=refs/heads/phonelab/cm-13.0/release-4.2.5#l2>`_
+   | **File**: `services/core/java/com/android/server/TelephonyRegistry.java:1027 <http://platform.phone-lab.org:8080/gitweb?p=cm-shamu/frameworks/base.git;a=blob;f=services/core/java/com/android/server/TelephonyRegistry.java;hb=refs/heads/phonelab/cm-13.0/release-4.2.5#l1027>`_
    | **Description**: Call forwarding status changed.
 
 #. | **Action**: ``android.telephony.CELL_LOCATION_CHANGED``
    | **Project**: `frameworks/base <http://platform.phone-lab.org:8080/gitweb?p=cm-shamu/frameworks/base.git>`_
-   | **File**: `services/core/java/com/android/server/TelephonyRegistry.java:2 <http://platform.phone-lab.org:8080/gitweb?p=cm-shamu/frameworks/base.git;a=blob;f=services/core/java/com/android/server/TelephonyRegistry.java;hb=refs/heads/phonelab/cm-13.0/release-4.2.5#l2>`_
+   | **File**: `services/core/java/com/android/server/TelephonyRegistry.java:1257 <http://platform.phone-lab.org:8080/gitweb?p=cm-shamu/frameworks/base.git;a=blob;f=services/core/java/com/android/server/TelephonyRegistry.java;hb=refs/heads/phonelab/cm-13.0/release-4.2.5#l1257>`_
    | **Description**: Cell tower location changed.
 
 #. | **Action**: ``android.telephony.DATA_ACTIVITY_CHANGED``
    | **Project**: `frameworks/base <http://platform.phone-lab.org:8080/gitweb?p=cm-shamu/frameworks/base.git>`_
-   | **File**: `services/core/java/com/android/server/TelephonyRegistry.java:2 <http://platform.phone-lab.org:8080/gitweb?p=cm-shamu/frameworks/base.git;a=blob;f=services/core/java/com/android/server/TelephonyRegistry.java;hb=refs/heads/phonelab/cm-13.0/release-4.2.5#l2>`_
+   | **File**: `services/core/java/com/android/server/TelephonyRegistry.java:1070 <http://platform.phone-lab.org:8080/gitweb?p=cm-shamu/frameworks/base.git;a=blob;f=services/core/java/com/android/server/TelephonyRegistry.java;hb=refs/heads/phonelab/cm-13.0/release-4.2.5#l1070>`_
    | **Description**: Cellular data activity.
 
 #. | **Action**: ``android.telephony.MESSAGE_WAITING_CHANGED``
    | **Project**: `frameworks/base <http://platform.phone-lab.org:8080/gitweb?p=cm-shamu/frameworks/base.git>`_
-   | **File**: `services/core/java/com/android/server/TelephonyRegistry.java:2 <http://platform.phone-lab.org:8080/gitweb?p=cm-shamu/frameworks/base.git;a=blob;f=services/core/java/com/android/server/TelephonyRegistry.java;hb=refs/heads/phonelab/cm-13.0/release-4.2.5#l2>`_
+   | **File**: `services/core/java/com/android/server/TelephonyRegistry.java:979 <http://platform.phone-lab.org:8080/gitweb?p=cm-shamu/frameworks/base.git;a=blob;f=services/core/java/com/android/server/TelephonyRegistry.java;hb=refs/heads/phonelab/cm-13.0/release-4.2.5#l979>`_
    | **Description**: Message waiting status changed.
 
 
@@ -103,7 +103,7 @@ Tag: ``PackageManager-Misc-PhoneLab``
 
 #. | **Action**: ``android.intent.action.PACKAGE_{ADDED, CHANGED, REMOVED}``
    | **Project**: `frameworks/base <http://platform.phone-lab.org:8080/gitweb?p=cm-shamu/frameworks/base.git>`_
-   | **File**: `services/core/java/com/android/server/pm/PackageManagerService.java:2 <http://platform.phone-lab.org:8080/gitweb?p=cm-shamu/frameworks/base.git;a=blob;f=services/core/java/com/android/server/pm/PackageManagerService.java;hb=refs/heads/phonelab/cm-13.0/release-4.2.5#l2>`_
+   | **File**: `services/core/java/com/android/server/pm/PackageManagerService.java:10154 <http://platform.phone-lab.org:8080/gitweb?p=cm-shamu/frameworks/base.git;a=blob;f=services/core/java/com/android/server/pm/PackageManagerService.java;hb=refs/heads/phonelab/cm-13.0/release-4.2.5#l10154>`_
    | **Description**: Package installed/uninstalled/updated.
 
 
@@ -117,7 +117,7 @@ Tag: ``Power-Battery-PhoneLab``
 
 #. | **Action**: ``android.intent.action.BATTERY_CHANGED``
    | **Project**: `frameworks/base <http://platform.phone-lab.org:8080/gitweb?p=cm-shamu/frameworks/base.git>`_
-   | **File**: `services/core/java/com/android/server/BatteryService.java:2 <http://platform.phone-lab.org:8080/gitweb?p=cm-shamu/frameworks/base.git;a=blob;f=services/core/java/com/android/server/BatteryService.java;hb=refs/heads/phonelab/cm-13.0/release-4.2.5#l2>`_
+   | **File**: `services/core/java/com/android/server/BatteryService.java:661 <http://platform.phone-lab.org:8080/gitweb?p=cm-shamu/frameworks/base.git;a=blob;f=services/core/java/com/android/server/BatteryService.java;hb=refs/heads/phonelab/cm-13.0/release-4.2.5#l661>`_
    | **Description**: Battery status changed.
 
 
@@ -127,12 +127,12 @@ Tag: ``Power-Screen-PhoneLab``
 
 #. | **Action**: ``android.intent.action.SCREEN_OFF``
    | **Project**: `frameworks/base <http://platform.phone-lab.org:8080/gitweb?p=cm-shamu/frameworks/base.git>`_
-   | **File**: `services/core/java/com/android/server/power/Notifier.java:2 <http://platform.phone-lab.org:8080/gitweb?p=cm-shamu/frameworks/base.git;a=blob;f=services/core/java/com/android/server/power/Notifier.java;hb=refs/heads/phonelab/cm-13.0/release-4.2.5#l2>`_
+   | **File**: `services/core/java/com/android/server/power/Notifier.java:634 <http://platform.phone-lab.org:8080/gitweb?p=cm-shamu/frameworks/base.git;a=blob;f=services/core/java/com/android/server/power/Notifier.java;hb=refs/heads/phonelab/cm-13.0/release-4.2.5#l634>`_
    | **Description**: Screen turned off.
 
 #. | **Action**: ``android.intent.action.SCREEN_ON``
    | **Project**: `frameworks/base <http://platform.phone-lab.org:8080/gitweb?p=cm-shamu/frameworks/base.git>`_
-   | **File**: `services/core/java/com/android/server/power/Notifier.java:2 <http://platform.phone-lab.org:8080/gitweb?p=cm-shamu/frameworks/base.git;a=blob;f=services/core/java/com/android/server/power/Notifier.java;hb=refs/heads/phonelab/cm-13.0/release-4.2.5#l2>`_
+   | **File**: `services/core/java/com/android/server/power/Notifier.java:596 <http://platform.phone-lab.org:8080/gitweb?p=cm-shamu/frameworks/base.git;a=blob;f=services/core/java/com/android/server/power/Notifier.java;hb=refs/heads/phonelab/cm-13.0/release-4.2.5#l596>`_
    | **Description**: Screen turned on.
 
 
@@ -146,7 +146,7 @@ Tag: ``Spinner-State-QoE``
 
 #. | **Action**: ``ProgressBarEvent``
    | **Project**: `frameworks/base <http://platform.phone-lab.org:8080/gitweb?p=cm-shamu/frameworks/base.git>`_
-   | **File**: `core/java/android/widget/ProgressBar.java:2 <http://platform.phone-lab.org:8080/gitweb?p=cm-shamu/frameworks/base.git;a=blob;f=core/java/android/widget/ProgressBar.java;hb=refs/heads/phonelab/cm-13.0/release-4.2.5#l2>`_
+   | **File**: `core/java/android/widget/ProgressBar.java:1505 <http://platform.phone-lab.org:8080/gitweb?p=cm-shamu/frameworks/base.git;a=blob;f=core/java/android/widget/ProgressBar.java;hb=refs/heads/phonelab/cm-13.0/release-4.2.5#l1505>`_
    | **Description**: Start and end of indeterminate progressbars
 
 
@@ -160,7 +160,7 @@ Tag: ``KeyEvent-UserAction-QoE``
 
 #. | **Action**: ``HardwareTouchEvent``
    | **Project**: `frameworks/base <http://platform.phone-lab.org:8080/gitweb?p=cm-shamu/frameworks/base.git>`_
-   | **File**: `core/java/android/view/KeyEvent.java:2 <http://platform.phone-lab.org:8080/gitweb?p=cm-shamu/frameworks/base.git;a=blob;f=core/java/android/view/KeyEvent.java;hb=refs/heads/phonelab/cm-13.0/release-4.2.5#l2>`_
+   | **File**: `core/java/android/view/KeyEvent.java:1594 <http://platform.phone-lab.org:8080/gitweb?p=cm-shamu/frameworks/base.git;a=blob;f=core/java/android/view/KeyEvent.java;hb=refs/heads/phonelab/cm-13.0/release-4.2.5#l1594>`_
    | **Description**: User pressed a key
 
 
@@ -174,7 +174,7 @@ Tag: ``View-UserAction-QoE``
 
 #. | **Action**: ``TouchEvent``
    | **Project**: `frameworks/base <http://platform.phone-lab.org:8080/gitweb?p=cm-shamu/frameworks/base.git>`_
-   | **File**: `core/java/android/view/View.java:2 <http://platform.phone-lab.org:8080/gitweb?p=cm-shamu/frameworks/base.git;a=blob;f=core/java/android/view/View.java;hb=refs/heads/phonelab/cm-13.0/release-4.2.5#l2>`_
+   | **File**: `core/java/android/view/View.java:10294 <http://platform.phone-lab.org:8080/gitweb?p=cm-shamu/frameworks/base.git;a=blob;f=core/java/android/view/View.java;hb=refs/heads/phonelab/cm-13.0/release-4.2.5#l10294>`_
    | **Description**: User touched item
 
 
@@ -188,12 +188,12 @@ Tag: ``WebView-Update-QoE``
 
 #. | **Action**: ``WebViewUpdateEvent``
    | **Project**: `frameworks/base <http://platform.phone-lab.org:8080/gitweb?p=cm-shamu/frameworks/base.git>`_
-   | **File**: `core/java/android/webkit/WebViewClient.java:2 <http://platform.phone-lab.org:8080/gitweb?p=cm-shamu/frameworks/base.git;a=blob;f=core/java/android/webkit/WebViewClient.java;hb=refs/heads/phonelab/cm-13.0/release-4.2.5#l2>`_
+   | **File**: `core/java/android/webkit/WebViewClient.java:38 <http://platform.phone-lab.org:8080/gitweb?p=cm-shamu/frameworks/base.git;a=blob;f=core/java/android/webkit/WebViewClient.java;hb=refs/heads/phonelab/cm-13.0/release-4.2.5#l38>`_
    | **Description**: Webview loading progress
 
 #. | **Action**: ``WebViewUpdateEvent``
    | **Project**: `frameworks/base <http://platform.phone-lab.org:8080/gitweb?p=cm-shamu/frameworks/base.git>`_
-   | **File**: `core/java/android/webkit/WebChromeClient.java:2 <http://platform.phone-lab.org:8080/gitweb?p=cm-shamu/frameworks/base.git;a=blob;f=core/java/android/webkit/WebChromeClient.java;hb=refs/heads/phonelab/cm-13.0/release-4.2.5#l2>`_
+   | **File**: `core/java/android/webkit/WebChromeClient.java:39 <http://platform.phone-lab.org:8080/gitweb?p=cm-shamu/frameworks/base.git;a=blob;f=core/java/android/webkit/WebChromeClient.java;hb=refs/heads/phonelab/cm-13.0/release-4.2.5#l39>`_
    | **Description**: Webview loading progress
 
 
@@ -203,7 +203,7 @@ Tag: ``WebView-UserActino-QoE``
 
 #. | **Action**: ``WebViewTouchEvent``
    | **Project**: `frameworks/base <http://platform.phone-lab.org:8080/gitweb?p=cm-shamu/frameworks/base.git>`_
-   | **File**: `core/java/android/webkit/WebView.java:2 <http://platform.phone-lab.org:8080/gitweb?p=cm-shamu/frameworks/base.git;a=blob;f=core/java/android/webkit/WebView.java;hb=refs/heads/phonelab/cm-13.0/release-4.2.5#l2>`_
+   | **File**: `core/java/android/webkit/WebView.java:304 <http://platform.phone-lab.org:8080/gitweb?p=cm-shamu/frameworks/base.git;a=blob;f=core/java/android/webkit/WebView.java;hb=refs/heads/phonelab/cm-13.0/release-4.2.5#l304>`_
    | **Description**: User touched item in webview
 
 Last updated 2016-12-02
