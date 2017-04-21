@@ -9,6 +9,7 @@ PhoneLab Development Documentation
 What's New
 ----------
 
+- [2017-04-21] PhoneLab will be shut down on May 2017.
 - [2016-09-14] PhoneLab has migrated to Nexus 6 devices. We are ready to accept
   experiment requests.
 
